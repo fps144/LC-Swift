@@ -8,5 +8,10 @@
 
 import Foundation
 
+// MARK: - Array
 //TwoSumSoluton().twoSumTest()
-AddTwoNumbersSolution().addTwoNumbersTest()
+
+// MARK: - Math
+//AddTwoNumbersSolution().addTwoNumbersTest()
+
+
