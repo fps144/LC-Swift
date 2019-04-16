@@ -42,7 +42,7 @@ class TwoSumSoluton {
 //    }
     
     // Time Complexity: O(n) Space Complexity: O(n)
-    // 思路：遍历数据源，取游标值 num，只要满足 target - num 依然在数据源中，且 target - num 和 num 并非同一 index 即可。可以建立 value 和 index 的映射，先判断，后添加 value - index。
+    // Thought：遍历数据源，取游标值 num，只要满足 target - num 依然在数据源中，且 target - num 和 num 并非同一 index 即可。可以建立 value 和 index 的映射，先判断，后添加 value - index。
     private func twoSum(_ nums:[Int], _ target: Int) -> [Int] {
         var result = [Int]()
         var valueIndexMap = [Int: Int]()
@@ -59,8 +59,8 @@ class TwoSumSoluton {
     
     /// Two Sum
     ///
-    /// Two Sum Testcase: [2,7,11,15] 9
-    func testTwoSum() {
+    /// Testcase: [2,7,11,15] 9
+    func twoSumTest() {
         print(twoSum([2, 7, 11, 15], 9))
     }
 }

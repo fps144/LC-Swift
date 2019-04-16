@@ -8,4 +8,5 @@
 
 import Foundation
 
-TwoSumSoluton().testTwoSum()
+//TwoSumSoluton().twoSumTest()
+AddTwoNumbersSolution().addTwoNumbersTest()
