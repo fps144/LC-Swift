@@ -10,6 +10,7 @@ import Foundation
 
 // MARK: - Array
 //TwoSumSoluton().twoSumTest()
+medianOfTwoSortedArraysSolution().findMedianSortedArraysTest()
 
 // MARK: - Math
 //AddTwoNumbersSolution().addTwoNumbersTest()

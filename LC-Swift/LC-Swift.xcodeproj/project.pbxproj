@@ -10,6 +10,7 @@
 		4DD9D2FC2264BC48001CA69B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9D2FB2264BC48001CA69B /* main.swift */; };
 		4DD9D3032264C5BC001CA69B /* 0001_TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9D3022264C5BC001CA69B /* 0001_TwoSum.swift */; };
 		4DD9D309226544B5001CA69B /* 0002_AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9D308226544B5001CA69B /* 0002_AddTwoNumbers.swift */; };
+		4DD9D30D22661110001CA69B /* 0004_Median of Two Sorted Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9D30C22661110001CA69B /* 0004_Median of Two Sorted Arrays.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		4DD9D2FB2264BC48001CA69B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4DD9D3022264C5BC001CA69B /* 0001_TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0001_TwoSum.swift; sourceTree = "<group>"; };
 		4DD9D308226544B5001CA69B /* 0002_AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0002_AddTwoNumbers.swift; sourceTree = "<group>"; };
+		4DD9D30C22661110001CA69B /* 0004_Median of Two Sorted Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0004_Median of Two Sorted Arrays.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				4DD9D2FB2264BC48001CA69B /* main.swift */,
-				4DD9D30722654484001CA69B /* Math */,
 				4DD9D3062264D947001CA69B /* Array */,
+				4DD9D30722654484001CA69B /* Math */,
 			);
 			path = "LC-Swift";
 			sourceTree = "<group>";
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				4DD9D3022264C5BC001CA69B /* 0001_TwoSum.swift */,
+				4DD9D30C22661110001CA69B /* 0004_Median of Two Sorted Arrays.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DD9D30D22661110001CA69B /* 0004_Median of Two Sorted Arrays.swift in Sources */,
 				4DD9D2FC2264BC48001CA69B /* main.swift in Sources */,
 				4DD9D309226544B5001CA69B /* 0002_AddTwoNumbers.swift in Sources */,
 				4DD9D3032264C5BC001CA69B /* 0001_TwoSum.swift in Sources */,
