@@ -79,7 +79,7 @@ class medianOfTwoSortedArraysSolution {
     
     /// Find Median Sorted Arrays
     ///
-    /// Testcase: [1, 2] [3, 4]
+    /// Testcase: [1, 2] [3, 4] -> 2.5
     func findMedianSortedArraysTest() {
         print(findMedianSortedArrays([1, 2], [3, 4]))
     }

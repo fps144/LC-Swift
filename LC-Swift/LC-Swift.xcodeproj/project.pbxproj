@@ -11,6 +11,7 @@
 		4DD9D3032264C5BC001CA69B /* 0001_TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9D3022264C5BC001CA69B /* 0001_TwoSum.swift */; };
 		4DD9D309226544B5001CA69B /* 0002_AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9D308226544B5001CA69B /* 0002_AddTwoNumbers.swift */; };
 		4DD9D30D22661110001CA69B /* 0004_MedianofTwoSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9D30C22661110001CA69B /* 0004_MedianofTwoSortedArrays.swift */; };
+		4DD9D30F2268D833001CA69B /* 0011_ContanierWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9D30E2268D833001CA69B /* 0011_ContanierWithMostWater.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		4DD9D3022264C5BC001CA69B /* 0001_TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0001_TwoSum.swift; sourceTree = "<group>"; };
 		4DD9D308226544B5001CA69B /* 0002_AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0002_AddTwoNumbers.swift; sourceTree = "<group>"; };
 		4DD9D30C22661110001CA69B /* 0004_MedianofTwoSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0004_MedianofTwoSortedArrays.swift; sourceTree = "<group>"; };
+		4DD9D30E2268D833001CA69B /* 0011_ContanierWithMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0011_ContanierWithMostWater.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			children = (
 				4DD9D3022264C5BC001CA69B /* 0001_TwoSum.swift */,
 				4DD9D30C22661110001CA69B /* 0004_MedianofTwoSortedArrays.swift */,
+				4DD9D30E2268D833001CA69B /* 0011_ContanierWithMostWater.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			files = (
 				4DD9D30D22661110001CA69B /* 0004_MedianofTwoSortedArrays.swift in Sources */,
 				4DD9D2FC2264BC48001CA69B /* main.swift in Sources */,
+				4DD9D30F2268D833001CA69B /* 0011_ContanierWithMostWater.swift in Sources */,
 				4DD9D309226544B5001CA69B /* 0002_AddTwoNumbers.swift in Sources */,
 				4DD9D3032264C5BC001CA69B /* 0001_TwoSum.swift in Sources */,
 			);
