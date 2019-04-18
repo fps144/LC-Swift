@@ -1,5 +1,5 @@
 //
-//  0004_Median of Two Sorted Arrays.swift
+//  0004_MedianOfTwoSortedArrays.swift
 //  LC-Swift
 //
 //  Created by Songyu on 2019/4/16.
