@@ -44,11 +44,8 @@ class ContainerWithMostWaterSolution {
         return area
     }
     
-    
-    // Container With Most Water
-    //
-    // Testcase: [1,8,6,2,5,4,8,3,7] -> 49
-    func containerWithMostWaterTest() {
+    /// Testcase: [1,8,6,2,5,4,8,3,7] -> 49
+    func test() {
         print(maxArea([1,8,6,2,5,4,8,3,7]))
     }
 }

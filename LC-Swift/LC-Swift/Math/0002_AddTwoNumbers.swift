@@ -93,10 +93,8 @@ class AddTwoNumbersSolution {
         return headNode.next
     }
     
-    /// Add Two Numbers
-    ///
     /// Testcase: [1, 3, 3] [7, 7]
-    func addTwoNumbersTest() {
+    func test() {
         let l1 = ListNode(1)
         l1.next = ListNode(3)
         l1.next?.next = ListNode(3)

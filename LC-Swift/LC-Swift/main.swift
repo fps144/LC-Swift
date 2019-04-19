@@ -9,12 +9,12 @@
 import Foundation
 
 // MARK: - Array
-//TwoSumSoluton().twoSumTest()
-//medianOfTwoSortedArraysSolution().findMedianSortedArraysTest()
-//ContainerWithMostWaterSolution().containerWithMostWaterTest()
-SquaresOfASortedArraySolution().test()
+//TwoSumSoluton().test()
+//medianOfTwoSortedArraysSolution().test()
+//ContainerWithMostWaterSolution().test()
+//SquaresOfASortedArraySolution().test()
 
 // MARK: - Math
-//AddTwoNumbersSolution().addTwoNumbersTest()
+//AddTwoNumbersSolution().test()
 
 

@@ -40,7 +40,7 @@ class SquaresOfASortedArraySolution {
     // 内存消耗 : 20.2 MB, 在Squares of a Sorted Array的Swift提交中击败了75.00% 的用户
     // TODO: 再快点？
     
-    // Testcase: [-7,-3,2,3,11] -> [4,9,9,49,121]
+    /// Testcase: [-7,-3,2,3,11] -> [4,9,9,49,121]
     func test() {
         print(sortedSquares([-7,-3,2,3,11]))
     }

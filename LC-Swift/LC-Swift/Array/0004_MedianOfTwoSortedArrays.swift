@@ -77,10 +77,8 @@ class medianOfTwoSortedArraysSolution {
     //TODO: 2. 耗时略长 执行用时 : 176 ms, 在Median of Two Sorted Arrays的Swift提交中击败了54.23% 的用户
     //TODO: 2. 内存占用略多 内存消耗 : 19.5 MB, 在Median of Two Sorted Arrays的Swift提交中击败了34.85% 的用户
     
-    /// Find Median Sorted Arrays
-    ///
     /// Testcase: [1, 2] [3, 4] -> 2.5
-    func findMedianSortedArraysTest() {
+    func test() {
         print(findMedianSortedArrays([1, 2], [3, 4]))
     }
 }

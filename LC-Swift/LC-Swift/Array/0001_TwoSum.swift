@@ -58,10 +58,8 @@ class TwoSumSoluton {
         return result
     }
     
-    /// Two Sum
-    ///
     /// Testcase: [2,7,11,15] 9
-    func twoSumTest() {
+    func test() {
         print(twoSum([2, 7, 11, 15], 9))
     }
 }
