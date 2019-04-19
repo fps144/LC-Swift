@@ -13,6 +13,7 @@
 		4DD9D30D22661110001CA69B /* 0004_MedianOfTwoSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9D30C22661110001CA69B /* 0004_MedianOfTwoSortedArrays.swift */; };
 		4DD9D30F2268D833001CA69B /* 0011_ContanierWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9D30E2268D833001CA69B /* 0011_ContanierWithMostWater.swift */; };
 		65F29A012269AD7D00AD7BD2 /* 0977_SquaresOfASortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F29A002269AD7D00AD7BD2 /* 0977_SquaresOfASortedArray.swift */; };
+		65F29A032269B6FC00AD7BD2 /* 0832_FlippingAnImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F29A022269B6FB00AD7BD2 /* 0832_FlippingAnImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		4DD9D30C22661110001CA69B /* 0004_MedianOfTwoSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0004_MedianOfTwoSortedArrays.swift; sourceTree = "<group>"; };
 		4DD9D30E2268D833001CA69B /* 0011_ContanierWithMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0011_ContanierWithMostWater.swift; sourceTree = "<group>"; };
 		65F29A002269AD7D00AD7BD2 /* 0977_SquaresOfASortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0977_SquaresOfASortedArray.swift; sourceTree = "<group>"; };
+		65F29A022269B6FB00AD7BD2 /* 0832_FlippingAnImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0832_FlippingAnImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				4DD9D3022264C5BC001CA69B /* 0001_TwoSum.swift */,
 				4DD9D30C22661110001CA69B /* 0004_MedianOfTwoSortedArrays.swift */,
 				4DD9D30E2268D833001CA69B /* 0011_ContanierWithMostWater.swift */,
+				65F29A022269B6FB00AD7BD2 /* 0832_FlippingAnImage.swift */,
 				65F29A002269AD7D00AD7BD2 /* 0977_SquaresOfASortedArray.swift */,
 			);
 			path = Array;
@@ -152,6 +155,7 @@
 			files = (
 				4DD9D30D22661110001CA69B /* 0004_MedianOfTwoSortedArrays.swift in Sources */,
 				4DD9D2FC2264BC48001CA69B /* main.swift in Sources */,
+				65F29A032269B6FC00AD7BD2 /* 0832_FlippingAnImage.swift in Sources */,
 				4DD9D30F2268D833001CA69B /* 0011_ContanierWithMostWater.swift in Sources */,
 				4DD9D309226544B5001CA69B /* 0002_AddTwoNumbers.swift in Sources */,
 				65F29A012269AD7D00AD7BD2 /* 0977_SquaresOfASortedArray.swift in Sources */,

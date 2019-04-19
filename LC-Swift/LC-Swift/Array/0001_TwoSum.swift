@@ -23,13 +23,13 @@ import Foundation
  */
 
 class TwoSumSoluton {
-    
+//    // Time Out!!!
+//    // Time Complexity: O(n²) | Space Complexity: O(n)
+//    // Thought: 遍历数据源，检查数据源中是否存在两个值，一个是游标值 num，另一个是 target - num。
+//                因为不能重复利用相同元素，所以从首尾分别取第一个值，使其满足上面的关系，将符合条件的 index 放入数组返回。
+//    // Reason: 遍历数据源时每循环一次都要再次遍历两遍数据源，耗时严重。
+//    // Proposals：减少数据源遍历次数，根据题目中 value 和 index 的关系，可以尝试建立 value 和 index 的映射。
 //    private func twoSum(_ nums:[Int], _ target: Int) -> [Int] {
-//        // Time Out!!!
-//        // Time Complexity: O(n²) Space Complexity: O(n)
-//        // Thought: 遍历数据源，检查数据源中是否存在两个值，一个是游标值 num，另一个是 target - num。因为不能重复利用相同元素，所以从首尾分别取第一个值，使其满足上面的关系，将符合条件的 index 放入数组返回。
-//        // Reason: 遍历数据源时每循环一次都要再次遍历两遍数据源，耗时严重。
-//        // Proposals：减少数据源遍历次数，根据题目中 value 和 index 的关系，可以尝试建立 value 和 index 的映射。
 //        var result = [Int]()
 //        for num in nums {
 //            let lastIndex = nums.firstIndex(of: num)
@@ -42,8 +42,9 @@ class TwoSumSoluton {
 //        return result
 //    }
     
-    // Time Complexity: O(n) Space Complexity: O(n)
-    // Thought：遍历数据源，取游标值 num，只要满足 target - num 依然在数据源中，且 target - num 和 num 并非同一 index 即可。可以建立 value 和 index 的映射，先判断，后添加 value - index。
+    // Time Complexity: O(n) | Space Complexity: O(n)
+    // Thought：遍历数据源，取游标值 num，只要满足 target - num 依然在数据源中，且 target - num 和 num 并非同一 index 即可。
+    //          可以建立 value 和 index 的映射，先判断，后添加 value - index。
     private func twoSum(_ nums:[Int], _ target: Int) -> [Int] {
         var result = [Int]()
         var valueIndexMap = [Int: Int]()

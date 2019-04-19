@@ -11,7 +11,7 @@ import Foundation
 class ContainerWithMostWaterSolution {
     
 //    // Time Out!!!
-//    // Time Complexity: O(n²) Space Complexity: O(1)
+//    // Time Complexity: O(n²) | Space Complexity: O(1)
 //    // Thought: 求面积最大值其实就是求 △x 与对应 minY 的最大积。
 //    // Reason: 如果数据源过大，则遍历需要花很多时间，导致超时。
 //    // Proposals：减少遍历次数，试着建立映射关系。
@@ -26,7 +26,7 @@ class ContainerWithMostWaterSolution {
 //        return area
 //    }
     
-    // Time Complexity: O(n) Space Complexity: O(1)
+    // Time Complexity: O(n) | Space Complexity: O(1)
     // Thought:既然 MaxArea = max(△x * min(Y)，所以从数组两边逐渐向内收缩可以保证 △x 始终处于最大值，那么这个时候
     //           只需考虑 max(min(Y)) 即可。所以指针有二，起始位置分别位于数组头和数组尾，移动的时候，为保证面积最大，
     //           需要移动较小 Y 值对应的指针，以寻求增加 max(min(Y)) 的机会。 即只需将 left 指针向外移动或将 right 指针

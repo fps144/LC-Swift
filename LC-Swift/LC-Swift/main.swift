@@ -13,6 +13,7 @@ import Foundation
 //medianOfTwoSortedArraysSolution().test()
 //ContainerWithMostWaterSolution().test()
 //SquaresOfASortedArraySolution().test()
+FlippingAnImageSolution().test()
 
 // MARK: - Math
 //AddTwoNumbersSolution().test()
