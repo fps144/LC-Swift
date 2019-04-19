@@ -11,7 +11,8 @@ import Foundation
 // MARK: - Array
 //TwoSumSoluton().twoSumTest()
 //medianOfTwoSortedArraysSolution().findMedianSortedArraysTest()
-ContainerWithMostWaterSolution().containerWithMostWaterTest()
+//ContainerWithMostWaterSolution().containerWithMostWaterTest()
+SquaresOfASortedArraySolution().test()
 
 // MARK: - Math
 //AddTwoNumbersSolution().addTwoNumbersTest()
