@@ -36,8 +36,10 @@ class AddTwoNumbersSolution {
     
 //    // Overflow when calculating int value!!!
 //    // Time Complexity: O(n) Space Complexity: O(n)
-//    // Thought: 遍历给定链表 -> 取出其中 val 值 -> 组成 Int 值 -> 相加得 mixNum -> 将 mixNum 转为 String -> 反转 mixNum -> 取出每一位 -> 存入新链表 -> 返回链表头
-//    // Reason: 32位平台 (Int = Int32 -2^31 -- 2^31-1 ) 64位平台 (Int = Int64 -2^63 -- 2^63-1) 如果给定链表的节点数 ≥Int 最大范围中2的最大次方值，则相加运算很可能会溢出。
+//    // Thought: 遍历给定链表 -> 取出其中 val 值 -> 组成 Int 值 -> 相加得 mixNum ->
+//    //            将 mixNum 转为 String -> 反转 mixNum -> 取出每一位 -> 存入新链表 -> 返回链表头
+//    // Reason: 32位平台 (Int = Int32 -2^31 -- 2^31-1 ) 64位平台 (Int = Int64 -2^63 -- 2^63-1)
+//    //           如果给定链表的节点数 ≥Int 最大范围中2的最大次方值，则相加运算很可能会溢出。
 //    // Proposals：不进行数值转化和运算，直接进行链表操作，利用十进制的特性，只针对链表当前操作节点的值进行计算，并把结果存入目标链表。
 //    func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
 //        func convertListToInt(_ list: ListNode) -> Int {
