@@ -30,7 +30,7 @@ import Foundation
 
 class SquaresOfASortedArraySolution {
     
-    // Time Complexity: O(n) | Space Complexity: O(n)
+    // Time Complexity: O(nlog n) | Space Complexity: O(n)
     // Thought: 对数组里面的元素求平方再非降序排序
     private func sortedSquares(_ A: [Int]) -> [Int] {
         return A.map { $0 * $0}.sorted(by:<)
