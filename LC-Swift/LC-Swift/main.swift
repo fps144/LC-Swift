@@ -12,8 +12,9 @@ import Foundation
 //TwoSumSoluton().test()
 //medianOfTwoSortedArraysSolution().test()
 //ContainerWithMostWaterSolution().test()
+ThreeSumSolution().test()
 //FlippingAnImageSolution().test()
-SortArrayByParitySolution().test()
+//SortArrayByParitySolution().test()
 //SquaresOfASortedArraySolution().test()
 
 

@@ -23,11 +23,48 @@ import Foundation
  */
 
 class ThreeSumSolution {
+    
+    // Time Complexity: O(n²) Space Complexity: O(n²)
+    // Thought: 先将给定数组升序排列，之后就可以按照排列的递增特性进行操作了。
+    //            遍历数组，将数组看做 i 位置的当前值和 nums[j...k] 数组，这就构成了一个两数之和问题。
+    //            因为结果中不能有重复数组出现，所以在遍历的时候判断新值和旧值是否相等，相等则条件+1
     private func threeSum(_ nums: [Int]) -> [[Int]] {
-        return [[1]]
+        var _nums = nums
+        _nums.sort()
+        var result = [[Int]]()
+        for i in 0..<_nums.count {
+            if i > 0 && _nums[i] == _nums[i - 1] {
+                continue
+            }
+            var j = i + 1, k = _nums.count - 1
+            while j < k {
+                let sum = _nums[i] + _nums[j] + _nums[k]
+                if sum == 0 {
+                    result.append([_nums[i], _nums[j], _nums[k]])
+                    j += 1
+                    k -= 1
+                    while j < k && _nums[j] == _nums[j-1] {
+                        j += 1
+                    }
+                    while j < k && _nums[k] == _nums[k+1] {
+                        k -= 1
+                    }
+                } else if sum > 0 {
+                    k -= 1
+                } else {
+                    j += 1
+                }
+            }
+        }
+        return result
     }
     
-    func threeSumTest() {
-        
+    // 执行用时 : 312 ms, 在3Sum的Swift提交中击败了91.06% 的用户
+    // 内存消耗 : 22.5 MB, 在3Sum的Swift提交中击败了26.79% 的用户
+    // TODO: 减少内存占用
+    
+    // Testcase: [-1, 0, 1, 2, -1, -4] -> [[-1, -1, 2], [-1, 0, 1]]
+    func test() {
+        print(threeSum([-1, 0, 1, 2, -1, -4]))
     }
 }
