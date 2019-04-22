@@ -29,7 +29,7 @@ import Foundation
 
 class FourSumSolution {
     
-    // Time Complexity: O(n³) Space Complexity: ?
+    // Time Complexity: O(n³) | Space Complexity: ?
     // Thought: 4数之和 = 1数 + 3数之和 = 1数 + 1数 + 2数之和
     //            先排序，再求值，注意去重即可
     // 执行用时 : 228 ms, 在4Sum的Swift提交中击败了55.17% 的用户

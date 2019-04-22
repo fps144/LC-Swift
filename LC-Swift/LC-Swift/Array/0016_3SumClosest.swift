@@ -20,7 +20,7 @@ import Foundation
 
 class ThreeSumClosestSolution {
     
-    // Time Complexity: O(n²) Space Complexity: O(n²)
+    // Time Complexity: O(n²) | Space Complexity: O(n²)
     // Thought: 求最近值其实就是求 min(abs(3sum - target))
     //            思路和求3数之和差不多，内循环 index 值自增的判定条件为 threeSum 和 target 之间的 > < == 关系
     // 执行用时 : 60 ms, 在3Sum Closest的Swift提交中击败了94.44% 的用户
