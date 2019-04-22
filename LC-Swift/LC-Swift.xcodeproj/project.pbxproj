@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4D4C5FC9226CBDFB00973053 /* 0016_3SumClosest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C5FC8226CBDFB00973053 /* 0016_3SumClosest.swift */; };
+		4D4C5FCB226DE03C00973053 /* 0018_4Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C5FCA226DE03C00973053 /* 0018_4Sum.swift */; };
 		4DD9D2FC2264BC48001CA69B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9D2FB2264BC48001CA69B /* main.swift */; };
 		4DD9D3032264C5BC001CA69B /* 0001_TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9D3022264C5BC001CA69B /* 0001_TwoSum.swift */; };
 		4DD9D309226544B5001CA69B /* 0002_AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9D308226544B5001CA69B /* 0002_AddTwoNumbers.swift */; };
@@ -33,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		4D4C5FC8226CBDFB00973053 /* 0016_3SumClosest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0016_3SumClosest.swift; sourceTree = "<group>"; };
+		4D4C5FCA226DE03C00973053 /* 0018_4Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0018_4Sum.swift; sourceTree = "<group>"; };
 		4DD9D2F82264BC48001CA69B /* LC-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LC-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD9D2FB2264BC48001CA69B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4DD9D3022264C5BC001CA69B /* 0001_TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0001_TwoSum.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				4DD9D30E2268D833001CA69B /* 0011_ContanierWithMostWater.swift */,
 				4DD9D31022694167001CA69B /* 0015_3Sum.swift */,
 				4D4C5FC8226CBDFB00973053 /* 0016_3SumClosest.swift */,
+				4D4C5FCA226DE03C00973053 /* 0018_4Sum.swift */,
 				65F29A022269B6FB00AD7BD2 /* 0832_FlippingAnImage.swift */,
 				4DD9D312226A20B6001CA69B /* 0905_SortArrayByParity.swift */,
 				65F29A002269AD7D00AD7BD2 /* 0977_SquaresOfASortedArray.swift */,
@@ -168,6 +171,7 @@
 				4DD9D30F2268D833001CA69B /* 0011_ContanierWithMostWater.swift in Sources */,
 				4DD9D309226544B5001CA69B /* 0002_AddTwoNumbers.swift in Sources */,
 				65F29A012269AD7D00AD7BD2 /* 0977_SquaresOfASortedArray.swift in Sources */,
+				4D4C5FCB226DE03C00973053 /* 0018_4Sum.swift in Sources */,
 				4DD9D3032264C5BC001CA69B /* 0001_TwoSum.swift in Sources */,
 				4DD9D31122694167001CA69B /* 0015_3Sum.swift in Sources */,
 				4D4C5FC9226CBDFB00973053 /* 0016_3SumClosest.swift in Sources */,
