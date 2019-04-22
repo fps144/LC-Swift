@@ -32,6 +32,8 @@ class FourSumSolution {
     // Time Complexity: O(n³) Space Complexity: ?
     // Thought: 4数之和 = 1数 + 3数之和 = 1数 + 1数 + 2数之和
     //            先排序，再求值，注意去重即可
+    // 执行用时 : 228 ms, 在4Sum的Swift提交中击败了55.17% 的用户
+    // 内存消耗 : 19 MB, 在4Sum的Swift提交中击败了50.00% 的用户
     private func fourSum(_ nums: [Int], _ target: Int) -> [[Int]] {
         var result = [[Int]]()
         guard nums.count >= 4 else {
@@ -78,12 +80,8 @@ class FourSumSolution {
         return result
     }
     
-    // 执行用时 : 228 ms, 在4Sum的Swift提交中击败了55.17% 的用户
-    // 内存消耗 : 19 MB, 在4Sum的Swift提交中击败了50.00% 的用户
-    
     // Testcase: nums = [1, 0, -1, 0, -2, 2]，target = 0 -> [[-1,  0, 0, 1], [-2, -1, 1, 2], [-2,  0, 0, 2]]
     //             nums = [-1, 0, 1, 2, -1, -4], target = -1 -> [[-4, 0, 1, 2],[-1, -1, 0, 1]]
-    
     func test() {
         print(fourSum([-1, 0, 1, 2, -1, -4], -1))
     }

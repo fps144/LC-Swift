@@ -33,6 +33,9 @@ class RemoveDuplicatesFromSortedArray {
     
     // Time Complexity: O(n²) Space Complexity: O(1)
     // Thought: 相邻指针去重，只需判断好边界条件即可。
+    // 执行用时 : 224 ms, 在Remove Duplicates from Sorted Array的Swift提交中击败了11.85% 的用户
+    // 内存消耗 : 19.5 MB, 在Remove Duplicates from Sorted Array的Swift提交中击败了17.72% 的用户
+    // TODO: 提高速度 & 减少内存消耗
     private func removeDuplicates(_ nums: inout [Int]) -> Int {
         guard nums.count > 0 else {
             return 0

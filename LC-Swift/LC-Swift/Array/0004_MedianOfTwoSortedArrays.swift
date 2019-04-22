@@ -31,6 +31,9 @@ class medianOfTwoSortedArraysSolution {
     // Time Complexity: O(log(m + n)) | Space Complexity: O(n)
     // Thought: 看到 TC 为 O(log n) 这种，可以联想到二分查找。
     //          那么 O(log(m + n)) 可以理解为：将有 m 个 和 n 个元素的数组进行合并，然后二分法取中位数。
+    //TODO: 1. 时间复杂度似乎不正确
+    //TODO: 2. 耗时略长 执行用时 : 176 ms, 在Median of Two Sorted Arrays的Swift提交中击败了54.23% 的用户
+    //TODO: 2. 内存占用略多 内存消耗 : 19.5 MB, 在Median of Two Sorted Arrays的Swift提交中击败了34.85% 的用户
     private func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
         
         /// Merge two arrays
@@ -73,10 +76,6 @@ class medianOfTwoSortedArraysSolution {
         
         return findMedian(nums: mergeArrays(arr1: nums1, arr2: nums2))
     }
-    
-    //TODO: 1. 时间复杂度似乎不正确
-    //TODO: 2. 耗时略长 执行用时 : 176 ms, 在Median of Two Sorted Arrays的Swift提交中击败了54.23% 的用户
-    //TODO: 2. 内存占用略多 内存消耗 : 19.5 MB, 在Median of Two Sorted Arrays的Swift提交中击败了34.85% 的用户
     
     /// Testcase: [1, 2] [3, 4] -> 2.5
     func test() {

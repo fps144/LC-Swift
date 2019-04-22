@@ -37,6 +37,9 @@ class FlippingAnImageSolution {
     
     // Time Complexity: O(n²) | Space Complexity: O(n²)
     // Thought: 遍历二维数组，翻转内层数组再对其元素与1异或。
+    // 执行用时 : 76 ms, 在Flipping an Image的Swift提交中击败了32.26% 的用户
+    // 内存消耗 : 18.6 MB, 在Flipping an Image的Swift提交中击败了88.24% 的用户
+    // TODO: 再快点？
     private func flipAndInvertImage(_ A: [[Int]]) -> [[Int]] {
         var result = [[Int]]()
         for innerArr in A {
@@ -47,10 +50,6 @@ class FlippingAnImageSolution {
         }
         return result
     }
-    
-    // 执行用时 : 76 ms, 在Flipping an Image的Swift提交中击败了32.26% 的用户
-    // 内存消耗 : 18.6 MB, 在Flipping an Image的Swift提交中击败了88.24% 的用户
-    // TODO: 再快点？
     
     // Testcase: [[1,1,0,0],[1,0,0,1],[0,1,1,1],[1,0,1,0]] -> [[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]]
     func test() {

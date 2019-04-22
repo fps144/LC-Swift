@@ -23,6 +23,9 @@ class ThreeSumClosestSolution {
     // Time Complexity: O(n²) Space Complexity: O(n²)
     // Thought: 求最近值其实就是求 min(abs(3sum - target))
     //            思路和求3数之和差不多，内循环 index 值自增的判定条件为 threeSum 和 target 之间的 > < == 关系
+    // 执行用时 : 60 ms, 在3Sum Closest的Swift提交中击败了94.44% 的用户
+    // 内存消耗 : 19 MB, 在3Sum Closest的Swift提交中击败了15.79% 的用户
+    // TODO: 减少内存消耗
     private func threeSumClosest(_ nums: [Int], _ target: Int) -> Int {
         if nums.count < 3 {
             return -999
@@ -50,10 +53,6 @@ class ThreeSumClosestSolution {
         }
         return closest
     }
-    
-    // 执行用时 : 60 ms, 在3Sum Closest的Swift提交中击败了94.44% 的用户
-    // 内存消耗 : 19 MB, 在3Sum Closest的Swift提交中击败了15.79% 的用户
-    // TODO: 减少内存消耗
     
     // Testcase: [0,5,-1,-2,4,-1,0,-3,4,-5], 1 -> 1
     func test() {

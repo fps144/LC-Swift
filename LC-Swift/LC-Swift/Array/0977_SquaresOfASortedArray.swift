@@ -32,13 +32,12 @@ class SquaresOfASortedArraySolution {
     
     // Time Complexity: O(nlog n) | Space Complexity: O(n)
     // Thought: 对数组里面的元素求平方再非降序排序
-    private func sortedSquares(_ A: [Int]) -> [Int] {
-        return A.map { $0 * $0}.sorted(by:<)
-    }
-    
     // 执行用时 : 680 ms, 在Squares of a Sorted Array的Swift提交中击败了41.76% 的用户
     // 内存消耗 : 20.2 MB, 在Squares of a Sorted Array的Swift提交中击败了75.00% 的用户
     // TODO: 再快点？
+    private func sortedSquares(_ A: [Int]) -> [Int] {
+        return A.map { $0 * $0}.sorted(by:<)
+    }
     
     /// Testcase: [-7,-3,2,3,11] -> [4,9,9,49,121]
     func test() {

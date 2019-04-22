@@ -29,13 +29,12 @@ class SortArrayByParitySolution {
     
     // Time Complexity: O(n) | Space Complexity: O(n)
     // Thought: 分别找出偶数数组和奇数数组，最后合并。
-    private func sortArrayByParity(_ A: [Int]) -> [Int] {
-        return A.filter { $0 % 2 == 0 } + A.filter { $0 % 2 == 1 }
-    }
-    
     // 执行用时 : 120 ms, 在Sort Array By Parity的Swift提交中击败了50.00% 的用户
     // 内存消耗 : 19.1 MB, 在Sort Array By Parity的Swift提交中击败了77.42% 的用户
     // TODO: 再快点？
+    private func sortArrayByParity(_ A: [Int]) -> [Int] {
+        return A.filter { $0 % 2 == 0 } + A.filter { $0 % 2 == 1 }
+    }
     
     // Testcase: [3,1,2,4] -> [4,2,3,1] || [2,4,1,3] || [4,2,1,3]
     func test() {

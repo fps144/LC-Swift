@@ -28,6 +28,9 @@ class ThreeSumSolution {
     // Thought: 先将给定数组升序排列，之后就可以按照排列的递增特性进行操作了。
     //            遍历数组，将数组看做 i 位置的当前值和 nums[j...k] 数组，这就构成了一个两数之和问题。
     //            因为结果中不能有重复数组出现，所以在遍历的时候判断新值和旧值是否相等，相等则条件+1
+    // 执行用时 : 312 ms, 在3Sum的Swift提交中击败了91.06% 的用户
+    // 内存消耗 : 22.5 MB, 在3Sum的Swift提交中击败了26.79% 的用户
+    // TODO: 减少内存消耗
     private func threeSum(_ nums: [Int]) -> [[Int]] {
         var _nums = nums
         _nums.sort()
@@ -58,10 +61,6 @@ class ThreeSumSolution {
         }
         return result
     }
-    
-    // 执行用时 : 312 ms, 在3Sum的Swift提交中击败了91.06% 的用户
-    // 内存消耗 : 22.5 MB, 在3Sum的Swift提交中击败了26.79% 的用户
-    // TODO: 减少内存占用
     
     // Testcase: [-1, 0, 1, 2, -1, -4] -> [[-1, -1, 2], [-1, 0, 1]]
     func test() {
