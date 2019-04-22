@@ -53,10 +53,6 @@ class RemoveDuplicatesFromSortedArray {
         return nums.count
     }
     
-    // 执行用时 : 224 ms, 在Remove Duplicates from Sorted Array的Swift提交中击败了11.85% 的用户
-    // 内存消耗 : 19.5 MB, 在Remove Duplicates from Sorted Array的Swift提交中击败了17.72% 的用户
-    // TODO: 提高速度 & 减少内存消耗
-    
     // Testcase: &[0,0,1,1,1,2,2,3,3,4] -> 5 | &[1, 1] -> 1
     func test() {
 //        var a = [1, 1]
