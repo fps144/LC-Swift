@@ -17,6 +17,7 @@ import Foundation
 //FourSumSolution().test()
 //RemoveDuplicatesFromSortedArray().test()
 //FibonacciNumberSolution().test()
+ArrayPartitionISolution().test()
 //FlippingAnImageSolution().test()
 //SortArrayByParitySolution().test()
 //SortArrayByParityIISolution().test()

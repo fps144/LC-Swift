@@ -10,6 +10,7 @@
 		4D4C5FC9226CBDFB00973053 /* 0016_3SumClosest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C5FC8226CBDFB00973053 /* 0016_3SumClosest.swift */; };
 		4D4C5FCB226DE03C00973053 /* 0018_4Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C5FCA226DE03C00973053 /* 0018_4Sum.swift */; };
 		4D4C5FCE226E049400973053 /* 0026_RemoveDuplicatesFromSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C5FCD226E049400973053 /* 0026_RemoveDuplicatesFromSortedArray.swift */; };
+		4D7909D2226F2287008BF81F /* 0561_ArrayPartitionI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7909D1226F2287008BF81F /* 0561_ArrayPartitionI.swift */; };
 		4DD9D2FC2264BC48001CA69B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9D2FB2264BC48001CA69B /* main.swift */; };
 		4DD9D3032264C5BC001CA69B /* 0001_TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9D3022264C5BC001CA69B /* 0001_TwoSum.swift */; };
 		4DD9D309226544B5001CA69B /* 0002_AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9D308226544B5001CA69B /* 0002_AddTwoNumbers.swift */; };
@@ -39,6 +40,7 @@
 		4D4C5FC8226CBDFB00973053 /* 0016_3SumClosest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0016_3SumClosest.swift; sourceTree = "<group>"; };
 		4D4C5FCA226DE03C00973053 /* 0018_4Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0018_4Sum.swift; sourceTree = "<group>"; };
 		4D4C5FCD226E049400973053 /* 0026_RemoveDuplicatesFromSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0026_RemoveDuplicatesFromSortedArray.swift; sourceTree = "<group>"; };
+		4D7909D1226F2287008BF81F /* 0561_ArrayPartitionI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0561_ArrayPartitionI.swift; sourceTree = "<group>"; };
 		4DD9D2F82264BC48001CA69B /* LC-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LC-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD9D2FB2264BC48001CA69B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4DD9D3022264C5BC001CA69B /* 0001_TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0001_TwoSum.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				4D4C5FCA226DE03C00973053 /* 0018_4Sum.swift */,
 				4D4C5FCD226E049400973053 /* 0026_RemoveDuplicatesFromSortedArray.swift */,
 				65531501226E93AE009627BD /* 0509_FibonacciNumber.swift */,
+				4D7909D1226F2287008BF81F /* 0561_ArrayPartitionI.swift */,
 				65F29A022269B6FB00AD7BD2 /* 0832_FlippingAnImage.swift */,
 				4DD9D312226A20B6001CA69B /* 0905_SortArrayByParity.swift */,
 				65531503226EDFB7009627BD /* 0922_SortArrayByParityII.swift */,
@@ -188,6 +191,7 @@
 				4DD9D31122694167001CA69B /* 0015_3Sum.swift in Sources */,
 				4D4C5FC9226CBDFB00973053 /* 0016_3SumClosest.swift in Sources */,
 				4DD9D313226A20B6001CA69B /* 0905_SortArrayByParity.swift in Sources */,
+				4D7909D2226F2287008BF81F /* 0561_ArrayPartitionI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
