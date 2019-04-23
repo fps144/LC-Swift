@@ -16,11 +16,11 @@ import Foundation
 //ThreeSumClosestSolution().test()
 //FourSumSolution().test()
 //RemoveDuplicatesFromSortedArray().test()
-FibonacciNumberSolution().test()
+//FibonacciNumberSolution().test()
 //FlippingAnImageSolution().test()
 //SortArrayByParitySolution().test()
+//SortArrayByParityIISolution().test()
 //SquaresOfASortedArraySolution().test()
-
 
 // MARK: - Math
 //AddTwoNumbersSolution().test()

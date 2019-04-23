@@ -18,6 +18,7 @@
 		4DD9D31122694167001CA69B /* 0015_3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9D31022694167001CA69B /* 0015_3Sum.swift */; };
 		4DD9D313226A20B6001CA69B /* 0905_SortArrayByParity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9D312226A20B6001CA69B /* 0905_SortArrayByParity.swift */; };
 		65531502226E93AE009627BD /* 0509_FibonacciNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65531501226E93AE009627BD /* 0509_FibonacciNumber.swift */; };
+		65531504226EDFB7009627BD /* 0922_SortArrayByParityII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65531503226EDFB7009627BD /* 0922_SortArrayByParityII.swift */; };
 		65F29A012269AD7D00AD7BD2 /* 0977_SquaresOfASortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F29A002269AD7D00AD7BD2 /* 0977_SquaresOfASortedArray.swift */; };
 		65F29A032269B6FC00AD7BD2 /* 0832_FlippingAnImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F29A022269B6FB00AD7BD2 /* 0832_FlippingAnImage.swift */; };
 /* End PBXBuildFile section */
@@ -47,6 +48,7 @@
 		4DD9D31022694167001CA69B /* 0015_3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0015_3Sum.swift; sourceTree = "<group>"; };
 		4DD9D312226A20B6001CA69B /* 0905_SortArrayByParity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0905_SortArrayByParity.swift; sourceTree = "<group>"; };
 		65531501226E93AE009627BD /* 0509_FibonacciNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0509_FibonacciNumber.swift; sourceTree = "<group>"; };
+		65531503226EDFB7009627BD /* 0922_SortArrayByParityII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0922_SortArrayByParityII.swift; sourceTree = "<group>"; };
 		65F29A002269AD7D00AD7BD2 /* 0977_SquaresOfASortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0977_SquaresOfASortedArray.swift; sourceTree = "<group>"; };
 		65F29A022269B6FB00AD7BD2 /* 0832_FlippingAnImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0832_FlippingAnImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +103,7 @@
 				65531501226E93AE009627BD /* 0509_FibonacciNumber.swift */,
 				65F29A022269B6FB00AD7BD2 /* 0832_FlippingAnImage.swift */,
 				4DD9D312226A20B6001CA69B /* 0905_SortArrayByParity.swift */,
+				65531503226EDFB7009627BD /* 0922_SortArrayByParityII.swift */,
 				65F29A002269AD7D00AD7BD2 /* 0977_SquaresOfASortedArray.swift */,
 			);
 			path = Array;
@@ -179,6 +182,7 @@
 				4DD9D309226544B5001CA69B /* 0002_AddTwoNumbers.swift in Sources */,
 				65F29A012269AD7D00AD7BD2 /* 0977_SquaresOfASortedArray.swift in Sources */,
 				65531502226E93AE009627BD /* 0509_FibonacciNumber.swift in Sources */,
+				65531504226EDFB7009627BD /* 0922_SortArrayByParityII.swift in Sources */,
 				4D4C5FCB226DE03C00973053 /* 0018_4Sum.swift in Sources */,
 				4DD9D3032264C5BC001CA69B /* 0001_TwoSum.swift in Sources */,
 				4DD9D31122694167001CA69B /* 0015_3Sum.swift in Sources */,
