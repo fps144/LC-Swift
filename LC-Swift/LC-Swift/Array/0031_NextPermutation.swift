@@ -24,7 +24,10 @@ import Foundation
 class NextPermutationSolution {
     
     // Time Complexity: O(n) | Space Complexity: O(1)
-    // Thought: 
+    // Thought: 下一个更大的排列 = 反向遍历数组，找到第一个不满足升序的数，记录其 firstIndex
+    //            + 从 firstIndex 起至数组末尾，正向遍历数组，找到第一个 nums[firstIndex] < nums[lastIndex] && nums[firstIndex] >= nums[lastIndex + 1] 的值
+    //            + 交换 firstIndex 和 lastIndex 对应的值
+    //            + 如果 firstIndex 和 lastIndex 并不同时为0，则降序排列 firstIndex + 1 ..< nums.count 的值；否则，反转整个数组。
     // 执行用时 : 32 ms, 在Next Permutation的Swift提交中击败了100.00% 的用户
     // 内存消耗 : 19 MB, 在Next Permutation的Swift提交中击败了33.33% 的用户
     private func nextPermutation(_ nums: inout [Int]) {
