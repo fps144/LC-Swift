@@ -22,11 +22,12 @@ import Foundation
 //RemoveElementSolution().test()
 //NextPermutationSolution().test()
 //SearchInRotatedSortedArraySolution().test()
-PascalsTriangleSolution().test()
+//PascalsTriangleSolution().test()
 //FlippingAnImageSolution().test()
 //SortArrayByParitySolution().test()
 //SortArrayByParityIISolution().test()
 //SquaresOfASortedArraySolution().test()
+SumOfEvenNumbersAfterQueriesSolution().test()
 
 // MARK: - Math
 //AddTwoNumbersSolution().test()

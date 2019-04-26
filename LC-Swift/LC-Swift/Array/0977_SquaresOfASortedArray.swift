@@ -39,7 +39,7 @@ class SquaresOfASortedArraySolution {
         return A.map { $0 * $0}.sorted(by:<)
     }
     
-    /// Testcase: [-7,-3,2,3,11] -> [4,9,9,49,121]
+    // Testcase: [-7,-3,2,3,11] -> [4,9,9,49,121]
     func test() {
         print(sortedSquares([-7,-3,2,3,11]))
     }
