@@ -24,6 +24,7 @@
 		65A9070922700BC40065EABA /* 0867_TransposeMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A9070822700BC40065EABA /* 0867_TransposeMatrix.swift */; };
 		65A90755227189150065EABA /* 0027_RemoveElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A90754227189150065EABA /* 0027_RemoveElement.swift */; };
 		65A9075722718EAA0065EABA /* 0031_NextPermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A9075622718EAA0065EABA /* 0031_NextPermutation.swift */; };
+		65A9079322728D7D0065EABA /* 0118_Pascal'sTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A9079222728D7D0065EABA /* 0118_Pascal'sTriangle.swift */; };
 		65F29A012269AD7D00AD7BD2 /* 0977_SquaresOfASortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F29A002269AD7D00AD7BD2 /* 0977_SquaresOfASortedArray.swift */; };
 		65F29A032269B6FC00AD7BD2 /* 0832_FlippingAnImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F29A022269B6FB00AD7BD2 /* 0832_FlippingAnImage.swift */; };
 /* End PBXBuildFile section */
@@ -59,6 +60,7 @@
 		65A9070822700BC40065EABA /* 0867_TransposeMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0867_TransposeMatrix.swift; sourceTree = "<group>"; };
 		65A90754227189150065EABA /* 0027_RemoveElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0027_RemoveElement.swift; sourceTree = "<group>"; };
 		65A9075622718EAA0065EABA /* 0031_NextPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0031_NextPermutation.swift; sourceTree = "<group>"; };
+		65A9079222728D7D0065EABA /* 0118_Pascal'sTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0118_Pascal'sTriangle.swift"; sourceTree = "<group>"; };
 		65F29A002269AD7D00AD7BD2 /* 0977_SquaresOfASortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0977_SquaresOfASortedArray.swift; sourceTree = "<group>"; };
 		65F29A022269B6FB00AD7BD2 /* 0832_FlippingAnImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0832_FlippingAnImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +115,7 @@
 				65A90754227189150065EABA /* 0027_RemoveElement.swift */,
 				65A9075622718EAA0065EABA /* 0031_NextPermutation.swift */,
 				4DA399132271D36E00A27802 /* 0033_SearchInRotatedSortedArray.swift */,
+				65A9079222728D7D0065EABA /* 0118_Pascal'sTriangle.swift */,
 				65531501226E93AE009627BD /* 0509_FibonacciNumber.swift */,
 				4D7909D1226F2287008BF81F /* 0561_ArrayPartitionI.swift */,
 				65F29A022269B6FB00AD7BD2 /* 0832_FlippingAnImage.swift */,
@@ -204,6 +207,7 @@
 				4DD9D3032264C5BC001CA69B /* 0001_TwoSum.swift in Sources */,
 				4DD9D31122694167001CA69B /* 0015_3Sum.swift in Sources */,
 				4D4C5FC9226CBDFB00973053 /* 0016_3SumClosest.swift in Sources */,
+				65A9079322728D7D0065EABA /* 0118_Pascal'sTriangle.swift in Sources */,
 				4DA399142271D36E00A27802 /* 0033_SearchInRotatedSortedArray.swift in Sources */,
 				65A9070922700BC40065EABA /* 0867_TransposeMatrix.swift in Sources */,
 				4DD9D313226A20B6001CA69B /* 0905_SortArrayByParity.swift in Sources */,
