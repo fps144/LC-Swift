@@ -28,7 +28,8 @@ import Foundation
 //SortArrayByParityIISolution().test()
 //SquaresOfASortedArraySolution().test()
 //SumOfEvenNumbersAfterQueriesSolution().test()
-FindCommonCharactersSolution().test()
+AvailableCapturesForRookSolution().test()
+//FindCommonCharactersSolution().test()
 
 // MARK: - Math
 //AddTwoNumbersSolution().test()
