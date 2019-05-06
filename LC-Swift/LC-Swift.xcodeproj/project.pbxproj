@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4D1943802280827300F692E0 /* 0566_ReshapeTheMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D19437F2280827300F692E0 /* 0566_ReshapeTheMatrix.swift */; };
+		4D1943822280F91B00F692E0 /* 0766_ToeplitzMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1943812280F91B00F692E0 /* 0766_ToeplitzMatrix.swift */; };
 		4D4C5FC9226CBDFB00973053 /* 0016_3SumClosest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C5FC8226CBDFB00973053 /* 0016_3SumClosest.swift */; };
 		4D4C5FCB226DE03C00973053 /* 0018_4Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C5FCA226DE03C00973053 /* 0018_4Sum.swift */; };
 		4D4C5FCE226E049400973053 /* 0026_RemoveDuplicatesFromSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C5FCD226E049400973053 /* 0026_RemoveDuplicatesFromSortedArray.swift */; };
@@ -47,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		4D19437F2280827300F692E0 /* 0566_ReshapeTheMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0566_ReshapeTheMatrix.swift; sourceTree = "<group>"; };
+		4D1943812280F91B00F692E0 /* 0766_ToeplitzMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0766_ToeplitzMatrix.swift; sourceTree = "<group>"; };
 		4D4C5FC8226CBDFB00973053 /* 0016_3SumClosest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0016_3SumClosest.swift; sourceTree = "<group>"; };
 		4D4C5FCA226DE03C00973053 /* 0018_4Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0018_4Sum.swift; sourceTree = "<group>"; };
 		4D4C5FCD226E049400973053 /* 0026_RemoveDuplicatesFromSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0026_RemoveDuplicatesFromSortedArray.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				65531501226E93AE009627BD /* 0509_FibonacciNumber.swift */,
 				4D7909D1226F2287008BF81F /* 0561_ArrayPartitionI.swift */,
 				4D19437F2280827300F692E0 /* 0566_ReshapeTheMatrix.swift */,
+				4D1943812280F91B00F692E0 /* 0766_ToeplitzMatrix.swift */,
 				65F29A022269B6FB00AD7BD2 /* 0832_FlippingAnImage.swift */,
 				65A9070822700BC40065EABA /* 0867_TransposeMatrix.swift */,
 				4DD9D312226A20B6001CA69B /* 0905_SortArrayByParity.swift */,
@@ -209,6 +212,7 @@
 				4DD9D2FC2264BC48001CA69B /* main.swift in Sources */,
 				65F29A032269B6FC00AD7BD2 /* 0832_FlippingAnImage.swift in Sources */,
 				4DD9D30F2268D833001CA69B /* 0011_ContanierWithMostWater.swift in Sources */,
+				4D1943822280F91B00F692E0 /* 0766_ToeplitzMatrix.swift in Sources */,
 				4D4C5FCE226E049400973053 /* 0026_RemoveDuplicatesFromSortedArray.swift in Sources */,
 				4DD9D309226544B5001CA69B /* 0002_AddTwoNumbers.swift in Sources */,
 				65A907952272971C0065EABA /* 0985_SumOfEvenNumbersAfterQueries.swift in Sources */,
