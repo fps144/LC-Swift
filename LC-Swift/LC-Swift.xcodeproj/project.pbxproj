@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D1943802280827300F692E0 /* 0566_ReshapeTheMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D19437F2280827300F692E0 /* 0566_ReshapeTheMatrix.swift */; };
 		4D4C5FC9226CBDFB00973053 /* 0016_3SumClosest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C5FC8226CBDFB00973053 /* 0016_3SumClosest.swift */; };
 		4D4C5FCB226DE03C00973053 /* 0018_4Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C5FCA226DE03C00973053 /* 0018_4Sum.swift */; };
 		4D4C5FCE226E049400973053 /* 0026_RemoveDuplicatesFromSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C5FCD226E049400973053 /* 0026_RemoveDuplicatesFromSortedArray.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4D19437F2280827300F692E0 /* 0566_ReshapeTheMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0566_ReshapeTheMatrix.swift; sourceTree = "<group>"; };
 		4D4C5FC8226CBDFB00973053 /* 0016_3SumClosest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0016_3SumClosest.swift; sourceTree = "<group>"; };
 		4D4C5FCA226DE03C00973053 /* 0018_4Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0018_4Sum.swift; sourceTree = "<group>"; };
 		4D4C5FCD226E049400973053 /* 0026_RemoveDuplicatesFromSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0026_RemoveDuplicatesFromSortedArray.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				65A9079222728D7D0065EABA /* 0118_Pascal'sTriangle.swift */,
 				65531501226E93AE009627BD /* 0509_FibonacciNumber.swift */,
 				4D7909D1226F2287008BF81F /* 0561_ArrayPartitionI.swift */,
+				4D19437F2280827300F692E0 /* 0566_ReshapeTheMatrix.swift */,
 				65F29A022269B6FB00AD7BD2 /* 0832_FlippingAnImage.swift */,
 				65A9070822700BC40065EABA /* 0867_TransposeMatrix.swift */,
 				4DD9D312226A20B6001CA69B /* 0905_SortArrayByParity.swift */,
@@ -221,6 +224,7 @@
 				65A907992272DB0B0065EABA /* 1002_FindCommonCharacters.swift in Sources */,
 				65A9079322728D7D0065EABA /* 0118_Pascal'sTriangle.swift in Sources */,
 				4DA399142271D36E00A27802 /* 0033_SearchInRotatedSortedArray.swift in Sources */,
+				4D1943802280827300F692E0 /* 0566_ReshapeTheMatrix.swift in Sources */,
 				65A9070922700BC40065EABA /* 0867_TransposeMatrix.swift in Sources */,
 				4DD9D313226A20B6001CA69B /* 0905_SortArrayByParity.swift in Sources */,
 				4D7909D2226F2287008BF81F /* 0561_ArrayPartitionI.swift in Sources */,

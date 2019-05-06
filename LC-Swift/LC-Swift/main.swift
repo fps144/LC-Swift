@@ -18,6 +18,7 @@ import Foundation
 //RemoveDuplicatesFromSortedArray().test()
 //FibonacciNumberSolution().test()
 //ArrayPartitionISolution().test()
+ReshapeTheMatrixSolution().test()
 //TransposeMatrixSolution().test()
 //RemoveElementSolution().test()
 //NextPermutationSolution().test()
@@ -28,7 +29,7 @@ import Foundation
 //SortArrayByParityIISolution().test()
 //SquaresOfASortedArraySolution().test()
 //SumOfEvenNumbersAfterQueriesSolution().test()
-AvailableCapturesForRookSolution().test()
+//AvailableCapturesForRookSolution().test()
 //FindCommonCharactersSolution().test()
 
 // MARK: - Math
