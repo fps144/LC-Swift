@@ -17,6 +17,7 @@
 		4D9B15AD22824F01003DD1AB /* 0122_BestTimeToBuyAndSellStockII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B15AC22824F01003DD1AB /* 0122_BestTimeToBuyAndSellStockII.swift */; };
 		4D9B15AF22832234003DD1AB /* 0283_MoveZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B15AE22832234003DD1AB /* 0283_MoveZeroes.swift */; };
 		4D9B15B122832838003DD1AB /* 0485_MaxConsecutiveOnes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B15B022832838003DD1AB /* 0485_MaxConsecutiveOnes.swift */; };
+		4D9B15B322832BC7003DD1AB /* 0268_MissingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B15B222832BC7003DD1AB /* 0268_MissingNumber.swift */; };
 		4DA399142271D36E00A27802 /* 0033_SearchInRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA399132271D36E00A27802 /* 0033_SearchInRotatedSortedArray.swift */; };
 		4DD9D2FC2264BC48001CA69B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9D2FB2264BC48001CA69B /* main.swift */; };
 		4DD9D3032264C5BC001CA69B /* 0001_TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9D3022264C5BC001CA69B /* 0001_TwoSum.swift */; };
@@ -63,6 +64,7 @@
 		4D9B15AC22824F01003DD1AB /* 0122_BestTimeToBuyAndSellStockII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0122_BestTimeToBuyAndSellStockII.swift; sourceTree = "<group>"; };
 		4D9B15AE22832234003DD1AB /* 0283_MoveZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0283_MoveZeroes.swift; sourceTree = "<group>"; };
 		4D9B15B022832838003DD1AB /* 0485_MaxConsecutiveOnes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0485_MaxConsecutiveOnes.swift; sourceTree = "<group>"; };
+		4D9B15B222832BC7003DD1AB /* 0268_MissingNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0268_MissingNumber.swift; sourceTree = "<group>"; };
 		4DA399132271D36E00A27802 /* 0033_SearchInRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0033_SearchInRotatedSortedArray.swift; sourceTree = "<group>"; };
 		4DD9D2F82264BC48001CA69B /* LC-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LC-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD9D2FB2264BC48001CA69B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				4D19438322824B4E00F692E0 /* 0121_BestTimeToBuyAndSellStock.swift */,
 				4D9B15AC22824F01003DD1AB /* 0122_BestTimeToBuyAndSellStockII.swift */,
 				6554DD842281661500F63BB3 /* 0169_MajorityElement.swift */,
+				4D9B15B222832BC7003DD1AB /* 0268_MissingNumber.swift */,
 				4D9B15AE22832234003DD1AB /* 0283_MoveZeroes.swift */,
 				4D9B15B022832838003DD1AB /* 0485_MaxConsecutiveOnes.swift */,
 				65531501226E93AE009627BD /* 0509_FibonacciNumber.swift */,
@@ -230,6 +233,7 @@
 				65A9075722718EAA0065EABA /* 0031_NextPermutation.swift in Sources */,
 				4DD9D2FC2264BC48001CA69B /* main.swift in Sources */,
 				65F29A032269B6FC00AD7BD2 /* 0832_FlippingAnImage.swift in Sources */,
+				4D9B15B322832BC7003DD1AB /* 0268_MissingNumber.swift in Sources */,
 				4DD9D30F2268D833001CA69B /* 0011_ContanierWithMostWater.swift in Sources */,
 				4D1943822280F91B00F692E0 /* 0766_ToeplitzMatrix.swift in Sources */,
 				4D4C5FCE226E049400973053 /* 0026_RemoveDuplicatesFromSortedArray.swift in Sources */,
