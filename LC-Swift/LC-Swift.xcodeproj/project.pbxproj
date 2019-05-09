@@ -33,6 +33,7 @@
 		6554DD8722816BAC00F63BB3 /* 0119_Pascal'sTriangleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6554DD8622816BAC00F63BB3 /* 0119_Pascal'sTriangleII.swift */; };
 		6580AA6922732FFB00B89BC9 /* 0999_AvailableCapturesForRook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6580AA6822732FFB00B89BC9 /* 0999_AvailableCapturesForRook.swift */; };
 		65A0FB402283D26D00719617 /* 0136_SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A0FB3F2283D26D00719617 /* 0136_SingleNumber.swift */; };
+		65A0FB422283D52C00719617 /* 0448_FindAllNumbersDisappearedInAnArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A0FB412283D52C00719617 /* 0448_FindAllNumbersDisappearedInAnArray.swift */; };
 		65A9070922700BC40065EABA /* 0867_TransposeMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A9070822700BC40065EABA /* 0867_TransposeMatrix.swift */; };
 		65A90755227189150065EABA /* 0027_RemoveElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A90754227189150065EABA /* 0027_RemoveElement.swift */; };
 		65A9075722718EAA0065EABA /* 0031_NextPermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A9075622718EAA0065EABA /* 0031_NextPermutation.swift */; };
@@ -83,6 +84,7 @@
 		6554DD8622816BAC00F63BB3 /* 0119_Pascal'sTriangleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0119_Pascal'sTriangleII.swift"; sourceTree = "<group>"; };
 		6580AA6822732FFB00B89BC9 /* 0999_AvailableCapturesForRook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0999_AvailableCapturesForRook.swift; sourceTree = "<group>"; };
 		65A0FB3F2283D26D00719617 /* 0136_SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0136_SingleNumber.swift; sourceTree = "<group>"; };
+		65A0FB412283D52C00719617 /* 0448_FindAllNumbersDisappearedInAnArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0448_FindAllNumbersDisappearedInAnArray.swift; sourceTree = "<group>"; };
 		65A9070822700BC40065EABA /* 0867_TransposeMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0867_TransposeMatrix.swift; sourceTree = "<group>"; };
 		65A90754227189150065EABA /* 0027_RemoveElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0027_RemoveElement.swift; sourceTree = "<group>"; };
 		65A9075622718EAA0065EABA /* 0031_NextPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0031_NextPermutation.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				6554DD842281661500F63BB3 /* 0169_MajorityElement.swift */,
 				4D9B15B222832BC7003DD1AB /* 0268_MissingNumber.swift */,
 				4D9B15AE22832234003DD1AB /* 0283_MoveZeroes.swift */,
+				65A0FB412283D52C00719617 /* 0448_FindAllNumbersDisappearedInAnArray.swift */,
 				4D9B15B022832838003DD1AB /* 0485_MaxConsecutiveOnes.swift */,
 				65531501226E93AE009627BD /* 0509_FibonacciNumber.swift */,
 				4D7909D1226F2287008BF81F /* 0561_ArrayPartitionI.swift */,
@@ -237,6 +240,7 @@
 				6554DD8722816BAC00F63BB3 /* 0119_Pascal'sTriangleII.swift in Sources */,
 				4DD9D30D22661110001CA69B /* 0004_MedianOfTwoSortedArrays.swift in Sources */,
 				65A9075722718EAA0065EABA /* 0031_NextPermutation.swift in Sources */,
+				65A0FB422283D52C00719617 /* 0448_FindAllNumbersDisappearedInAnArray.swift in Sources */,
 				4DD9D2FC2264BC48001CA69B /* main.swift in Sources */,
 				65F29A032269B6FC00AD7BD2 /* 0832_FlippingAnImage.swift in Sources */,
 				4D9B15B322832BC7003DD1AB /* 0268_MissingNumber.swift in Sources */,
