@@ -1,5 +1,5 @@
 //
-//  0691_DegreeOfAnArray.swift
+//  0697_DegreeOfAnArray.swift
 //  LC-Swift
 //
 //  Created by 南门 on 2019/5/14.
