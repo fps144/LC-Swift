@@ -20,6 +20,7 @@
 		4D9B15B322832BC7003DD1AB /* 0268_MissingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B15B222832BC7003DD1AB /* 0268_MissingNumber.swift */; };
 		4D9B15B52283A012003DD1AB /* 0167_TwoSumII-InputArrayIsSorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B15B42283A012003DD1AB /* 0167_TwoSumII-InputArrayIsSorted.swift */; };
 		4DA399142271D36E00A27802 /* 0033_SearchInRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA399132271D36E00A27802 /* 0033_SearchInRotatedSortedArray.swift */; };
+		4DC2F869228B83840035052D /* 0830_PositionsOfLargeGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC2F868228B83840035052D /* 0830_PositionsOfLargeGroups.swift */; };
 		4DD9D2FC2264BC48001CA69B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9D2FB2264BC48001CA69B /* main.swift */; };
 		4DD9D3032264C5BC001CA69B /* 0001_TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9D3022264C5BC001CA69B /* 0001_TwoSum.swift */; };
 		4DD9D309226544B5001CA69B /* 0002_AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9D308226544B5001CA69B /* 0002_AddTwoNumbers.swift */; };
@@ -75,6 +76,7 @@
 		4D9B15B222832BC7003DD1AB /* 0268_MissingNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0268_MissingNumber.swift; sourceTree = "<group>"; };
 		4D9B15B42283A012003DD1AB /* 0167_TwoSumII-InputArrayIsSorted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0167_TwoSumII-InputArrayIsSorted.swift"; sourceTree = "<group>"; };
 		4DA399132271D36E00A27802 /* 0033_SearchInRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0033_SearchInRotatedSortedArray.swift; sourceTree = "<group>"; };
+		4DC2F868228B83840035052D /* 0830_PositionsOfLargeGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0830_PositionsOfLargeGroups.swift; sourceTree = "<group>"; };
 		4DD9D2F82264BC48001CA69B /* LC-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LC-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD9D2FB2264BC48001CA69B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4DD9D3022264C5BC001CA69B /* 0001_TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0001_TwoSum.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 				65A572BB228AAF4200A897E2 /* 0661_ImageSmoother.swift */,
 				65A572BD228ABB6300A897E2 /* 0697_DegreeOfAnArray.swift */,
 				4D1943812280F91B00F692E0 /* 0766_ToeplitzMatrix.swift */,
+				4DC2F868228B83840035052D /* 0830_PositionsOfLargeGroups.swift */,
 				65F29A022269B6FB00AD7BD2 /* 0832_FlippingAnImage.swift */,
 				65A9070822700BC40065EABA /* 0867_TransposeMatrix.swift */,
 				65A0FB4522840A2900719617 /* 0888_FairCandySwap.swift */,
@@ -280,6 +283,7 @@
 				65A0FB402283D26D00719617 /* 0136_SingleNumber.swift in Sources */,
 				4D9B15B52283A012003DD1AB /* 0167_TwoSumII-InputArrayIsSorted.swift in Sources */,
 				65A572BE228ABB6300A897E2 /* 0697_DegreeOfAnArray.swift in Sources */,
+				4DC2F869228B83840035052D /* 0830_PositionsOfLargeGroups.swift in Sources */,
 				4DD9D31122694167001CA69B /* 0015_3Sum.swift in Sources */,
 				65A0FB442284035A00719617 /* 0217_ContainsDuplicate.swift in Sources */,
 				4D4C5FC9226CBDFB00973053 /* 0016_3SumClosest.swift in Sources */,
