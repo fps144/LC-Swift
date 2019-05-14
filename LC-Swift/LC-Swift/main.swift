@@ -16,10 +16,6 @@ import Foundation
 //ThreeSumClosestSolution().test()
 //FourSumSolution().test()
 //RemoveDuplicatesFromSortedArray().test()
-//FibonacciNumberSolution().test()
-//ArrayPartitionISolution().test()
-//ReshapeTheMatrixSolution().test()
-//ToeplitzMatrixSolution().test()
 //RemoveElementSolution().test()
 //NextPermutationSolution().test()
 //SearchInRotatedSortedArraySolution().test()
@@ -35,10 +31,15 @@ import Foundation
 //MoveZeroesSolution().test()
 //FindAllNumbersDisappearedInAnArraySolution().test()
 //MaxConsecutiveOnesSolution().test()
+//FibonacciNumberSolution().test()
+//ArrayPartitionISolution().test()
+//ReshapeTheMatrixSolution().test()
+ImageSmootherSolution().test()
+//ToeplitzMatrixSolution().test()
 //FlippingAnImageSolution().test()
 //TransposeMatrixSolution().test()
 //FairCandySwapSolution().test()
-MonotonicArraySolution().test()
+//MonotonicArraySolution().test()
 //SortArrayByParitySolution().test()
 //SortArrayByParityIISolution().test()
 //SquaresOfASortedArraySolution().test()
@@ -48,5 +49,3 @@ MonotonicArraySolution().test()
 
 // MARK: - Math
 //AddTwoNumbersSolution().test()
-
-
