@@ -36,41 +36,33 @@ import Foundation
 
 class DegreeOfAnArraySolution {
     
+    // Time Complexity: O(n) | Space Complexity: O(n)
+    // Thought: 利用 HashMap 的思想，遍历原数组，建立 [值 : (出现次数, 首次出现位置, 最后一次出现离首次出现的长度)] 的映射。
+    //            找到映射中出现次数最多的值，并取这些值的最短长度即可。
+    // 执行用时 : 276 ms, 在Degree of an Array的Swift提交中击败了100.00% 的用户
+    // 内存消耗 : 21.9 MB, 在Degree of an Array的Swift提交中击败了20.00% 的用户
     private func findShortestSubArray(_ nums: [Int]) -> Int {
-        // 求度
-        func degree(_ arr: [Int]) -> Int {
-            var numCountMap = [Int: Int]()
-            for num in nums {
-                if numCountMap.keys.contains(num) {
-                    numCountMap[num]! += 1
-                } else {
-                    numCountMap[num] = 1
-                }
+        var numMap = [Int: (Int, Int, Int)]()
+        var degree = nums.count
+        var maxFrequency = 0
+        for i in nums.indices {
+            if let (count, head, _) = numMap[nums[i]] {
+                numMap[nums[i]] = (count + 1, head, i - head + 1)
+            } else {
+                numMap[nums[i]] = (1, i , 1)
             }
-            var degree = 1
-            for (_, value) in numCountMap {
-                degree = max(degree, value)
-            }
-            return degree
         }
         
-        let numsDegree = degree(nums)
-        var result = nums.count
-        var i = 0
-        var j = result - 1
-        var allSubArrs = [[Int]]()
-        for i in nums.indices {
-            for j in 0..<nums.count - i {
-                
+        for (_, value) in numMap {
+            if maxFrequency < value.0 {
+                degree = value.2
+                maxFrequency = value.0
+            }
+            if maxFrequency == value.0 {
+                degree = min(degree, value.2)
             }
         }
-        while i < j {
-            let subArr = Array(nums[i...j])
-            if degree(subArr) == numsDegree {
-                
-            }
-        }
-        return result
+        return degree
     }
     
     // Testcase: [1,2,2,3,1,4,2] -> 6
