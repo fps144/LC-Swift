@@ -34,6 +34,7 @@
 		6554DD8722816BAC00F63BB3 /* 0119_Pascal'sTriangleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6554DD8622816BAC00F63BB3 /* 0119_Pascal'sTriangleII.swift */; };
 		6571D2C7228BB888004A4CDE /* 0088_MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6571D2C6228BB888004A4CDE /* 0088_MergeSortedArray.swift */; };
 		6571D2C9228BBC1F004A4CDE /* 0628_MaximumProductOfThreeNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6571D2C8228BBC1F004A4CDE /* 0628_MaximumProductOfThreeNumbers.swift */; };
+		657CD0C2228BFFDD00F21987 /* 0066_PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657CD0C1228BFFDD00F21987 /* 0066_PlusOne.swift */; };
 		6580AA6922732FFB00B89BC9 /* 0999_AvailableCapturesForRook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6580AA6822732FFB00B89BC9 /* 0999_AvailableCapturesForRook.swift */; };
 		659AD8EB228BEA870032F852 /* 0053_MaximumSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659AD8EA228BEA870032F852 /* 0053_MaximumSubarray.swift */; };
 		65A0FB402283D26D00719617 /* 0136_SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A0FB3F2283D26D00719617 /* 0136_SingleNumber.swift */; };
@@ -94,6 +95,7 @@
 		6554DD8622816BAC00F63BB3 /* 0119_Pascal'sTriangleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0119_Pascal'sTriangleII.swift"; sourceTree = "<group>"; };
 		6571D2C6228BB888004A4CDE /* 0088_MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0088_MergeSortedArray.swift; sourceTree = "<group>"; };
 		6571D2C8228BBC1F004A4CDE /* 0628_MaximumProductOfThreeNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0628_MaximumProductOfThreeNumbers.swift; sourceTree = "<group>"; };
+		657CD0C1228BFFDD00F21987 /* 0066_PlusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0066_PlusOne.swift; sourceTree = "<group>"; };
 		6580AA6822732FFB00B89BC9 /* 0999_AvailableCapturesForRook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0999_AvailableCapturesForRook.swift; sourceTree = "<group>"; };
 		659AD8EA228BEA870032F852 /* 0053_MaximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0053_MaximumSubarray.swift; sourceTree = "<group>"; };
 		65A0FB3F2283D26D00719617 /* 0136_SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0136_SingleNumber.swift; sourceTree = "<group>"; };
@@ -145,7 +147,7 @@
 			children = (
 				4DD9D2FB2264BC48001CA69B /* main.swift */,
 				4DD9D3062264D947001CA69B /* Array */,
-				4DD9D30722654484001CA69B /* Math */,
+				657CD0C3228C00C300F21987 /* Linked List */,
 			);
 			path = "LC-Swift";
 			sourceTree = "<group>";
@@ -164,6 +166,7 @@
 				65A9075622718EAA0065EABA /* 0031_NextPermutation.swift */,
 				4DA399132271D36E00A27802 /* 0033_SearchInRotatedSortedArray.swift */,
 				659AD8EA228BEA870032F852 /* 0053_MaximumSubarray.swift */,
+				657CD0C1228BFFDD00F21987 /* 0066_PlusOne.swift */,
 				6571D2C6228BB888004A4CDE /* 0088_MergeSortedArray.swift */,
 				65A9079222728D7D0065EABA /* 0118_Pascal'sTriangle.swift */,
 				6554DD8622816BAC00F63BB3 /* 0119_Pascal'sTriangleII.swift */,
@@ -199,12 +202,12 @@
 			path = Array;
 			sourceTree = "<group>";
 		};
-		4DD9D30722654484001CA69B /* Math */ = {
+		657CD0C3228C00C300F21987 /* Linked List */ = {
 			isa = PBXGroup;
 			children = (
 				4DD9D308226544B5001CA69B /* 0002_AddTwoNumbers.swift */,
 			);
-			path = Math;
+			path = "Linked List";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +299,7 @@
 				65A572BE228ABB6300A897E2 /* 0697_DegreeOfAnArray.swift in Sources */,
 				4DC2F869228B83840035052D /* 0830_PositionsOfLargeGroups.swift in Sources */,
 				4DD9D31122694167001CA69B /* 0015_3Sum.swift in Sources */,
+				657CD0C2228BFFDD00F21987 /* 0066_PlusOne.swift in Sources */,
 				65A0FB442284035A00719617 /* 0217_ContainsDuplicate.swift in Sources */,
 				4D4C5FC9226CBDFB00973053 /* 0016_3SumClosest.swift in Sources */,
 				6580AA6922732FFB00B89BC9 /* 0999_AvailableCapturesForRook.swift in Sources */,
