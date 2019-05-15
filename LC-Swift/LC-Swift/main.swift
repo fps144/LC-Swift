@@ -20,7 +20,7 @@ import Foundation
 //NextPermutationSolution().test()
 //SearchInRotatedSortedArraySolution().test()
 //MaximumSubarraySolution().test()
-PlusOneSolution().test()
+//PlusOneSolution().test()
 //MergeSortedArraySolution().test()
 //PascalsTriangleSolution().test()
 //PascalsTriangleIISolution().test()
@@ -29,6 +29,7 @@ PlusOneSolution().test()
 //SingleNumberSolution().test()
 //TwoSumIIInputArrayIsSortedSolution().test()
 //MajorityElementSolution().test()
+RotateArraySolution().test()
 //ContainsDuplicate().test()
 //MissingNumberSolution().test()
 //MoveZeroesSolution().test()
@@ -53,5 +54,5 @@ PlusOneSolution().test()
 //AvailableCapturesForRookSolution().test()
 //FindCommonCharactersSolution().test()
 
-// MARK: - Math
+// MARK: - Linked List
 //AddTwoNumbersSolution().test()
