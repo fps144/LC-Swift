@@ -38,15 +38,32 @@ import Foundation
 
 class PositionsOfLargeGroupsSolution {
     
+    // Time Complexity: O(n) | Space Complexity O(n)
+    // Thought: 双指针，首个字符的坐标记为 i，遍历数组，如果当前指针指向数组末尾或 arr[index] != arr[index + 1]，则判断两者距离是否 >= 3。
+    // 执行用时 : 28 ms, 在Positions of Large Groups的Swift提交中击败了100.00% 的用户
+    // 内存消耗 : 21.1 MB, 在Positions of Large Groups的Swift提交中击败了11.11% 的用户
     private func largeGroupPositions(_ S: String) -> [[Int]] {
-        var result = [String: (Int, Int)]()
-        for index in 0..<S.count {
-            if let a = result[S[index...index]] {
-                result[S[index]] = (a.0, index)
-            } else {
-                result[S[index]] = (index, index)
+        var result = [[Int]]()
+        var i = 0
+        //        var i = S.startIndex
+        //        for index in S.indices {
+        //            if index == S.index(S.startIndex, offsetBy: S.count - 1) || S[index] != S[S.index(index, offsetBy: 1)] {
+        //                if S.distance(from: i, to: index) + 1 >= 3 {
+        //                    result.append([S.distance(from: S.startIndex, to: i), S.distance(from: S.startIndex, to: index)])
+        //                }
+        //                i = S.index(index, offsetBy: 1)
+        //            }
+        //        }
+        let arr = Array(S)
+        for index in arr.indices {
+            if index == arr.count - 1 || arr[index] != arr[index + 1] {
+                if (index - i + 1 >= 3) {
+                    result.append([i, index])
+                }
+                i = index + 1
             }
         }
+        return result
     }
     
     // Testcase: "abcdddeeeeaabbbcd" -> [[3,5],[6,9],[12,14]]
