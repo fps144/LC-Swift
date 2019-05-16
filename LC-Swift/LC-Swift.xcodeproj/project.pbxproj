@@ -44,6 +44,7 @@
 		657CD0D1228CFF9A00F21987 /* 0674_LongestContinuousIncreasingSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657CD0D0228CFF9900F21987 /* 0674_LongestContinuousIncreasingSubsequence.swift */; };
 		657CD0D3228CFFBE00F21987 /* 0747_LargestNumberAtLeastTwiceOfOthers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657CD0D2228CFFBE00F21987 /* 0747_LargestNumberAtLeastTwiceOfOthers.swift */; };
 		657CD0D5228D470500F21987 /* 0219_ContainsDuplicateII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657CD0D4228D470500F21987 /* 0219_ContainsDuplicateII.swift */; };
+		657CD0D7228D5B9E00F21987 /* 0989_AddToArray-FormOfInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657CD0D6228D5B9E00F21987 /* 0989_AddToArray-FormOfInteger.swift */; };
 		6580AA6922732FFB00B89BC9 /* 0999_AvailableCapturesForRook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6580AA6822732FFB00B89BC9 /* 0999_AvailableCapturesForRook.swift */; };
 		659AD8EB228BEA870032F852 /* 0053_MaximumSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659AD8EA228BEA870032F852 /* 0053_MaximumSubarray.swift */; };
 		65A0FB402283D26D00719617 /* 0136_SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A0FB3F2283D26D00719617 /* 0136_SingleNumber.swift */; };
@@ -114,6 +115,7 @@
 		657CD0D0228CFF9900F21987 /* 0674_LongestContinuousIncreasingSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0674_LongestContinuousIncreasingSubsequence.swift; sourceTree = "<group>"; };
 		657CD0D2228CFFBE00F21987 /* 0747_LargestNumberAtLeastTwiceOfOthers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0747_LargestNumberAtLeastTwiceOfOthers.swift; sourceTree = "<group>"; };
 		657CD0D4228D470500F21987 /* 0219_ContainsDuplicateII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0219_ContainsDuplicateII.swift; sourceTree = "<group>"; };
+		657CD0D6228D5B9E00F21987 /* 0989_AddToArray-FormOfInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0989_AddToArray-FormOfInteger.swift"; sourceTree = "<group>"; };
 		6580AA6822732FFB00B89BC9 /* 0999_AvailableCapturesForRook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0999_AvailableCapturesForRook.swift; sourceTree = "<group>"; };
 		659AD8EA228BEA870032F852 /* 0053_MaximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0053_MaximumSubarray.swift; sourceTree = "<group>"; };
 		65A0FB3F2283D26D00719617 /* 0136_SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0136_SingleNumber.swift; sourceTree = "<group>"; };
@@ -222,6 +224,7 @@
 				65531503226EDFB7009627BD /* 0922_SortArrayByParityII.swift */,
 				65F29A002269AD7D00AD7BD2 /* 0977_SquaresOfASortedArray.swift */,
 				65A907942272971C0065EABA /* 0985_SumOfEvenNumbersAfterQueries.swift */,
+				657CD0D6228D5B9E00F21987 /* 0989_AddToArray-FormOfInteger.swift */,
 				6580AA6822732FFB00B89BC9 /* 0999_AvailableCapturesForRook.swift */,
 				65A907982272DB0B0065EABA /* 1002_FindCommonCharacters.swift */,
 				657CD0CE228CFF7400F21987 /* 1013_PartitionArrayIntoThreePartsWithEqualSum.swift */,
@@ -347,6 +350,7 @@
 				657CD0C7228C123200F21987 /* 0414_ThirdMaximumNumber.swift in Sources */,
 				6571D2C9228BBC1F004A4CDE /* 0628_MaximumProductOfThreeNumbers.swift in Sources */,
 				4DD9D313226A20B6001CA69B /* 0905_SortArrayByParity.swift in Sources */,
+				657CD0D7228D5B9E00F21987 /* 0989_AddToArray-FormOfInteger.swift in Sources */,
 				4D7909D2226F2287008BF81F /* 0561_ArrayPartitionI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
