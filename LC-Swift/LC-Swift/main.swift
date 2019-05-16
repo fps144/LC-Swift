@@ -19,7 +19,7 @@ import Foundation
 //RemoveElementSolution().test()
 //NextPermutationSolution().test()
 //SearchInRotatedSortedArraySolution().test()
-SearchInsertPositionSolution().test()
+//SearchInsertPositionSolution().test()
 //MaximumSubarraySolution().test()
 //PlusOneSolution().test()
 //MergeSortedArraySolution().test()
@@ -57,6 +57,7 @@ SearchInsertPositionSolution().test()
 //SumOfEvenNumbersAfterQueriesSolution().test()
 //AvailableCapturesForRookSolution().test()
 //FindCommonCharactersSolution().test()
+PartitionArrayIntoThreePartsWithEqualSumSolution().test()
 
 // MARK: - Linked List
 //AddTwoNumbersSolution().test()
