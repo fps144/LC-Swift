@@ -42,6 +42,7 @@ import Foundation
 //ReshapeTheMatrixSolution().test()
 //MaximumProductOfThreeNumbersSolution().test()
 //ImageSmootherSolution().test()
+LongestContinuousIncreasingSubsequenceSolution().test()
 //DegreeOfAnArraySolution().test()
 //OnebitAndTwobitCharactersSolution().test()
 //MinCostClimbingStairsSolution().test()
@@ -57,7 +58,7 @@ import Foundation
 //SumOfEvenNumbersAfterQueriesSolution().test()
 //AvailableCapturesForRookSolution().test()
 //FindCommonCharactersSolution().test()
-PartitionArrayIntoThreePartsWithEqualSumSolution().test()
+//PartitionArrayIntoThreePartsWithEqualSumSolution().test()
 
 // MARK: - Linked List
 //AddTwoNumbersSolution().test()
