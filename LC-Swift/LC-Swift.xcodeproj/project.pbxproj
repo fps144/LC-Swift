@@ -37,6 +37,7 @@
 		657CD0C2228BFFDD00F21987 /* 0066_PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657CD0C1228BFFDD00F21987 /* 0066_PlusOne.swift */; };
 		657CD0C5228C078300F21987 /* 0189_RotateArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657CD0C4228C078300F21987 /* 0189_RotateArray.swift */; };
 		657CD0C7228C123200F21987 /* 0414_ThirdMaximumNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657CD0C6228C123200F21987 /* 0414_ThirdMaximumNumber.swift */; };
+		657CD0C9228CEDAE00F21987 /* 0746_MinCostClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657CD0C8228CEDAE00F21987 /* 0746_MinCostClimbingStairs.swift */; };
 		6580AA6922732FFB00B89BC9 /* 0999_AvailableCapturesForRook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6580AA6822732FFB00B89BC9 /* 0999_AvailableCapturesForRook.swift */; };
 		659AD8EB228BEA870032F852 /* 0053_MaximumSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659AD8EA228BEA870032F852 /* 0053_MaximumSubarray.swift */; };
 		65A0FB402283D26D00719617 /* 0136_SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A0FB3F2283D26D00719617 /* 0136_SingleNumber.swift */; };
@@ -100,6 +101,7 @@
 		657CD0C1228BFFDD00F21987 /* 0066_PlusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0066_PlusOne.swift; sourceTree = "<group>"; };
 		657CD0C4228C078300F21987 /* 0189_RotateArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0189_RotateArray.swift; sourceTree = "<group>"; };
 		657CD0C6228C123200F21987 /* 0414_ThirdMaximumNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0414_ThirdMaximumNumber.swift; sourceTree = "<group>"; };
+		657CD0C8228CEDAE00F21987 /* 0746_MinCostClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0746_MinCostClimbingStairs.swift; sourceTree = "<group>"; };
 		6580AA6822732FFB00B89BC9 /* 0999_AvailableCapturesForRook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0999_AvailableCapturesForRook.swift; sourceTree = "<group>"; };
 		659AD8EA228BEA870032F852 /* 0053_MaximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0053_MaximumSubarray.swift; sourceTree = "<group>"; };
 		65A0FB3F2283D26D00719617 /* 0136_SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0136_SingleNumber.swift; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 				6571D2C8228BBC1F004A4CDE /* 0628_MaximumProductOfThreeNumbers.swift */,
 				65A572BB228AAF4200A897E2 /* 0661_ImageSmoother.swift */,
 				65A572BD228ABB6300A897E2 /* 0697_DegreeOfAnArray.swift */,
+				657CD0C8228CEDAE00F21987 /* 0746_MinCostClimbingStairs.swift */,
 				4D1943812280F91B00F692E0 /* 0766_ToeplitzMatrix.swift */,
 				4DC2F868228B83840035052D /* 0830_PositionsOfLargeGroups.swift */,
 				65F29A022269B6FB00AD7BD2 /* 0832_FlippingAnImage.swift */,
@@ -295,6 +298,7 @@
 				4D9B15B122832838003DD1AB /* 0485_MaxConsecutiveOnes.swift in Sources */,
 				4D9B15AD22824F01003DD1AB /* 0122_BestTimeToBuyAndSellStockII.swift in Sources */,
 				6554DD852281661500F63BB3 /* 0169_MajorityElement.swift in Sources */,
+				657CD0C9228CEDAE00F21987 /* 0746_MinCostClimbingStairs.swift in Sources */,
 				65F29A012269AD7D00AD7BD2 /* 0977_SquaresOfASortedArray.swift in Sources */,
 				65531502226E93AE009627BD /* 0509_FibonacciNumber.swift in Sources */,
 				65531504226EDFB7009627BD /* 0922_SortArrayByParityII.swift in Sources */,
