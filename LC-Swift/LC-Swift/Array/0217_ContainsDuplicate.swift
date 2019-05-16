@@ -29,7 +29,7 @@ import Foundation
  输出: true
  */
 
-class ContainsDuplicate {
+class ContainsDuplicateSolution {
     
 //    // TimeComplexity: O(nlog n) | SpaceComplexity: O(n)
 //    // Thought: 先排序，如果相邻有相等，则存在重复数，反之则不存在。
