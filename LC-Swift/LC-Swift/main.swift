@@ -42,7 +42,7 @@ import Foundation
 //ArrayPartitionISolution().test()
 //ReshapeTheMatrixSolution().test()
 //MaximumProductOfThreeNumbersSolution().test()
-MaximumAverageSubarrayISolution().test()
+//MaximumAverageSubarrayISolution().test()
 //ImageSmootherSolution().test()
 //LongestContinuousIncreasingSubsequenceSolution().test()
 //DegreeOfAnArraySolution().test()
@@ -62,6 +62,7 @@ MaximumAverageSubarrayISolution().test()
 //AddToArrayFormOfIntegerSolution().test()
 //AvailableCapturesForRookSolution().test()
 //FindCommonCharactersSolution().test()
+PairsOfSongsWithTotalDurationsDivisibleBy60Solution().test()
 //PartitionArrayIntoThreePartsWithEqualSumSolution().test()
 
 // MARK: - Linked List
