@@ -57,12 +57,13 @@ import Foundation
 //MonotonicArraySolution().test()
 //SortArrayByParitySolution().test()
 //SortArrayByParityIISolution().test()
+ValidMountainArraySolution().test()
 //SquaresOfASortedArraySolution().test()
 //SumOfEvenNumbersAfterQueriesSolution().test()
 //AddToArrayFormOfIntegerSolution().test()
 //AvailableCapturesForRookSolution().test()
 //FindCommonCharactersSolution().test()
-PairsOfSongsWithTotalDurationsDivisibleBy60Solution().test()
+//PairsOfSongsWithTotalDurationsDivisibleBy60Solution().test()
 //PartitionArrayIntoThreePartsWithEqualSumSolution().test()
 
 // MARK: - Linked List
