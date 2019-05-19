@@ -40,8 +40,28 @@ import Foundation
 
 class FindPivotIndexSolution {
     
+    // Time Complexity: O(n) | Space Complexity: O(1)
+    // Thought: 先求数组所有元素之和，此时的和默认为右侧所有元素之和 rightSum
+    //          再遍历数组，当 index > 0 时，即可以开始计算 leftSum
+    //          当第一次 leftSum == rightSum 时，index 即满足条件，终止循环。
+    // 执行用时 : 224 ms, 在Find Pivot Index的Swift提交中击败了94.74% 的用户
+    // 内存消耗 : 20.6 MB, 在Find Pivot Index的Swift提交中击败了5.88% 的用户
     private func pivotIndex(_ nums: [Int]) -> Int {
-        return 0
+        var result = -1
+        guard nums.count > 0 else {
+            return result
+        }
+        var leftSum = 0
+        var rightSum = nums.reduce(0, +)
+        for index in nums.indices {
+            leftSum += index == 0 ? 0 : nums[index - 1]
+            rightSum -= nums[index]
+            if leftSum == rightSum {
+                result = index
+                break
+            }
+        }
+        return result
     }
     
     // Testcase: [1, 7, 3, 6, 5, 6] -> 3
