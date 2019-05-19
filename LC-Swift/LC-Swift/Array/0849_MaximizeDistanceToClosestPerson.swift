@@ -42,8 +42,28 @@ import Foundation
 
 class MaximizeDistanceToClosestPersonSolution {
     
+    // Time Complexity: O(n) | Space Complexity: O(1)
+    // Thought: 每遇到1个1，就记录 preOneIndex 为 index。
+    //          1. 如果只有1个1，其位置为 index，那么最大距离即为 max(index, seats.count - 1 - index)
+    //          所以当碰到第一个1的时候需要记录一个 result 为 index。
+    //          2. 如果有多个1，那么最大距离为 max(result, ceil((index - preOneIndex - 1) / 2.0))
+    //          3. 边界条件处理：遇到最后一个1，且当前 index != seats.count - 1 时仍需求一次最大值。
+    // 执行用时 : 120 ms, 在Maximize Distance to Closest Person的Swift提交中击败了100.00% 的用户
+    // 内存消耗 : 20.7 MB, 在Maximize Distance to Closest Person的Swift提交中击败了14.29% 的用户
     private func maxDistToClosest(_ seats: [Int]) -> Int {
-        return 0
+        var result = 0
+        var preOneIndex = -1
+        for index in 0..<seats.count {
+            if seats[index] == 1 {
+                result = preOneIndex == -1 ? index : max(result, Int(ceil(Double((index - preOneIndex - 1)) / 2.0)))
+                preOneIndex = index
+            } else {
+                if index == seats.count - 1 {
+                    result = max(result, index - preOneIndex)
+                }
+            }
+        }
+        return result
     }
     
     // Testcase: [1,0,0,0,1,0,1] -> 2
