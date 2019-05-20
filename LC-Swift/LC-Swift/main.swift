@@ -41,6 +41,7 @@ import Foundation
 //FibonacciNumberSolution().test()
 //ArrayPartitionISolution().test()
 //ReshapeTheMatrixSolution().test()
+ShortestUnsortedContinuousSubarraySolution().test()
 //MaximumProductOfThreeNumbersSolution().test()
 //MaximumAverageSubarrayISolution().test()
 //ImageSmootherSolution().test()
@@ -67,7 +68,7 @@ import Foundation
 //FindCommonCharactersSolution().test()
 //PairsOfSongsWithTotalDurationsDivisibleBy60Solution().test()
 //PartitionArrayIntoThreePartsWithEqualSumSolution().test()
-BinaryPrefixDivisibleBy5Solution().test()
+//BinaryPrefixDivisibleBy5Solution().test()
 
 // MARK: - Linked List
 //AddTwoNumbersSolution().test()

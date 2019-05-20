@@ -27,11 +27,30 @@ import Foundation
 
 class ShortestUnsortedContinuousSubarraySolution {
     
+    // Time Complexity: O(n) | Space Complexity: O(n)
+    // Thought: 先升序排序，再分别从头尾找出第一个与原数组不相等的值的位置，如果两个值相等(均为0)，则说明没有符合条件的子数组，长度为0；如果不等，则两个 index 的距离即为答案。
+    // 执行用时 : 488 ms, 在Shortest Unsorted Continuous Subarray的Swift提交中击败了60.00% 的用户
+    // 内存消耗 : 21.3 MB, 在Shortest Unsorted Continuous Subarray的Swift提交中击败了20.00% 的用户
     private func findUnsortedSubarray(_ nums: [Int]) -> Int {
-        return 0
+        var startIndex = 0
+        var endIndex = 0
+        let sortedNums = nums.sorted()
+        for i in nums.indices {
+            if nums[i] != sortedNums[i] {
+                startIndex = i
+                break
+            }
+        }
+        for j in stride(from: nums.count - 1, to: 0, by: -1) {
+            if nums[j] != sortedNums[j] {
+                endIndex = j
+                break
+            }
+        }
+        return startIndex == endIndex ? 0 : endIndex - startIndex + 1
     }
     
-    // Testcase: [2,6,4,8,10,9,15] -> 5
+    // Testcase: [2,6,4,8,10,9,15] -> 5 | [1,3,2,2,2] -> 4 | [1,3,2,3,3] -> 2
     func test() {
         print(findUnsortedSubarray([2,6,4,8,10,9,15]))
     }
