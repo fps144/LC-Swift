@@ -47,7 +47,7 @@ import Foundation
 //LongestContinuousIncreasingSubsequenceSolution().test()
 //DegreeOfAnArraySolution().test()
 //OnebitAndTwobitCharactersSolution().test()
-FindPivotIndexSolution().test()
+//FindPivotIndexSolution().test()
 //MinCostClimbingStairsSolution().test()
 //LargestNumberAtLeastTwiceOfOthersSolution().test()
 //ToeplitzMatrixSolution().test()
@@ -67,6 +67,7 @@ FindPivotIndexSolution().test()
 //FindCommonCharactersSolution().test()
 //PairsOfSongsWithTotalDurationsDivisibleBy60Solution().test()
 //PartitionArrayIntoThreePartsWithEqualSumSolution().test()
+BinaryPrefixDivisibleBy5Solution().test()
 
 // MARK: - Linked List
 //AddTwoNumbersSolution().test()
