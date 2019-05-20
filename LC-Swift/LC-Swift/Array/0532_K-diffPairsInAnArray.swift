@@ -40,12 +40,35 @@ import Foundation
 
 class KdiffPairsInAnArraySolution {
     
+    // Time Complexity: O(n) | Space Complexity: O(n)
+    // Thought: 分两种情况讨论：1. k == 0 时，配对的数即为当前的操作数；2. k > 0 时，配对的数即为 num - k 或 k - num 而且这两对数要么都存在，要么都不存在，因为题目说 (i, j) == (j, i)，所以这两对取其一即可。
+    // 执行用时 : 212 ms, 在K-diff Pairs in an Array的Swift提交中击败了62.50% 的用户
+    // 内存消耗 : 21 MB, 在K-diff Pairs in an Array的Swift提交中击败了14.29% 的用户
     private func findPairs(_ nums: [Int], _ k: Int) -> Int {
-        return 0
+        guard k >= 0 else {
+            return 0
+        }
+        var result = 0
+        var numMap = [Int: Int]()
+        for num in nums {
+            numMap[num, default: 0] += 1
+        }
+        for (num, count) in numMap {
+            if k == 0 {
+                if count > 1 {
+                    result += 1
+                }
+            } else {
+                if let _ = numMap[num - k] {
+                    result += 1
+                }
+            }
+        }
+        return result
     }
     
     // Testcase: [1, 3, 1, 5, 4], 0 -> 1
     func test() {
-        print(findPairs([1, 3, 1, 5, 4], 0))
+        print(findPairs([1, 2, 2, 2, 3], 1))
     }
 }
