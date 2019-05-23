@@ -39,7 +39,7 @@ import Foundation
 //FindAllNumbersDisappearedInAnArraySolution().test()
 //MaxConsecutiveOnesSolution().test()
 //FibonacciNumberSolution().test()
-KdiffPairsInAnArraySolution().test()
+//KdiffPairsInAnArraySolution().test()
 //ArrayPartitionISolution().test()
 //ReshapeTheMatrixSolution().test()
 //ShortestUnsortedContinuousSubarraySolution().test()
@@ -73,3 +73,4 @@ KdiffPairsInAnArraySolution().test()
 
 // MARK: - Linked List
 //AddTwoNumbersSolution().test()
+_237_DeleteNodeInAlinkedList().test();
