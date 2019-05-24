@@ -70,6 +70,7 @@
 		65A907992272DB0B0065EABA /* 1002_FindCommonCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A907982272DB0B0065EABA /* 1002_FindCommonCharacters.swift */; };
 		65D9851422966DDA004FE638 /* 0237_DeleteNodeInALinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65D9851222966DDA004FE638 /* 0237_DeleteNodeInALinkedList.cpp */; };
 		65D9851722967729004FE638 /* 0237_DeleteNodeInAlinkedList.mm in Sources */ = {isa = PBXBuildFile; fileRef = 65D9851622967729004FE638 /* 0237_DeleteNodeInAlinkedList.mm */; };
+		65D9851A229779DF004FE638 /* 0206_ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D98519229779DF004FE638 /* 0206_ReverseLinkedList.swift */; };
 		65F29A012269AD7D00AD7BD2 /* 0977_SquaresOfASortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F29A002269AD7D00AD7BD2 /* 0977_SquaresOfASortedArray.swift */; };
 		65F29A032269B6FC00AD7BD2 /* 0832_FlippingAnImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F29A022269B6FB00AD7BD2 /* 0832_FlippingAnImage.swift */; };
 /* End PBXBuildFile section */
@@ -154,6 +155,7 @@
 		65D9851322966DDA004FE638 /* 0237_DeleteNodeInALinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = 0237_DeleteNodeInALinkedList.hpp; sourceTree = "<group>"; };
 		65D9851522967729004FE638 /* 0237_DeleteNodeInAlinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 0237_DeleteNodeInAlinkedList.h; sourceTree = "<group>"; };
 		65D9851622967729004FE638 /* 0237_DeleteNodeInAlinkedList.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = 0237_DeleteNodeInAlinkedList.mm; sourceTree = "<group>"; };
+		65D98519229779DF004FE638 /* 0206_ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0206_ReverseLinkedList.swift; sourceTree = "<group>"; };
 		65F29A002269AD7D00AD7BD2 /* 0977_SquaresOfASortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0977_SquaresOfASortedArray.swift; sourceTree = "<group>"; };
 		65F29A022269B6FB00AD7BD2 /* 0832_FlippingAnImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0832_FlippingAnImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -268,6 +270,7 @@
 			isa = PBXGroup;
 			children = (
 				4DD9D308226544B5001CA69B /* 0002_AddTwoNumbers.swift */,
+				65D98519229779DF004FE638 /* 0206_ReverseLinkedList.swift */,
 				65D9851322966DDA004FE638 /* 0237_DeleteNodeInALinkedList.hpp */,
 				65D9851222966DDA004FE638 /* 0237_DeleteNodeInALinkedList.cpp */,
 				65D9851522967729004FE638 /* 0237_DeleteNodeInAlinkedList.h */,
@@ -357,6 +360,7 @@
 				657CD0CD228CFF4300F21987 /* 0035_SearchInsertPosition.swift in Sources */,
 				65A907952272971C0065EABA /* 0985_SumOfEvenNumbersAfterQueries.swift in Sources */,
 				657CD0D9228E42D600F21987 /* 0643_MaximumAverageSubarrayI.swift in Sources */,
+				65D9851A229779DF004FE638 /* 0206_ReverseLinkedList.swift in Sources */,
 				65A90755227189150065EABA /* 0027_RemoveElement.swift in Sources */,
 				4D9B15B122832838003DD1AB /* 0485_MaxConsecutiveOnes.swift in Sources */,
 				657CD0CF228CFF7400F21987 /* 1013_PartitionArrayIntoThreePartsWithEqualSum.swift in Sources */,

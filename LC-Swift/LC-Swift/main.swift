@@ -73,4 +73,5 @@ import Foundation
 
 // MARK: - Linked List
 //AddTwoNumbersSolution().test()
-_237_DeleteNodeInAlinkedList().test();
+ReverseLinkedListSolution().test()
+//_237_DeleteNodeInAlinkedList().test();
