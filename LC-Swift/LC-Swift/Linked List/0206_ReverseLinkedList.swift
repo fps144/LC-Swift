@@ -30,24 +30,38 @@ public class ListNode1 {
 
 class ReverseLinkedListSolution {
     
-    // Time Complexity: O(n) | Space Complexity: O(1)
-    // Thought: 遍历法，记录工作节点的前后节点，翻转即可。
-    // 执行用时 : 24 ms, 在Reverse Linked List的Swift提交中击败了97.56% 的用户
-    // 内存消耗 : 21.4 MB, 在Reverse Linked List的Swift提交中击败了5.69% 的用户
+//    // Time Complexity: O(n) | Space Complexity: O(1)
+//    // Thought: 遍历法，记录工作节点的前后节点，翻转即可。
+//    // 执行用时 : 24 ms, 在Reverse Linked List的Swift提交中击败了97.56% 的用户
+//    // 内存消耗 : 21.4 MB, 在Reverse Linked List的Swift提交中击败了5.69% 的用户
+//    private func reverseList(_ head: ListNode1?) -> ListNode1? {
+//        guard head != nil && head?.next != nil else {
+//            return head
+//        }
+//        var workNode = head?.next!
+//        head?.next = nil
+//        var beforeNode = head
+//        while workNode != nil {
+//            let tmp = workNode?.next ?? nil
+//            workNode?.next = beforeNode
+//            beforeNode = workNode
+//            workNode = tmp
+//        }
+//        return beforeNode
+//    }
+    
+    // Time Complexity: O(n) | Space Complexity: O(n)
+    // Thought: 递归
+    // 执行用时 : 28 ms, 在Reverse Linked List的Swift提交中击败了97.07% 的用户
+    // 内存消耗 : 22.4 MB, 在Reverse Linked List的Swift提交中击败了5.69% 的用户
     private func reverseList(_ head: ListNode1?) -> ListNode1? {
         guard head != nil && head?.next != nil else {
             return head
         }
-        var workNode = head?.next!
+        let nextNode = reverseList(head?.next)
+        head?.next?.next = head
         head?.next = nil
-        var beforeNode = head
-        while workNode != nil {
-            let tmp = workNode?.next ?? nil
-            workNode?.next = beforeNode
-            beforeNode = workNode
-            workNode = tmp
-        }
-        return beforeNode
+        return nextNode
     }
     
     private func printLinkedList(_ head: ListNode1?) {
